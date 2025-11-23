@@ -5,7 +5,7 @@ Scientists can collect samples and look for tiny pieces of DNA to figure out wha
 
 eDNA is a powerful tool for studying biodiversity, tracking rare or invasive species, and monitoring ecosystem health, all with minimal disturbance to the environment.
 
-The `DoT eDNA <https://www.dartmouthocean.com/products/edna/>`_ is one of the most advanced samplers available on the market and we are currently working on integrating it on a Slocum glider.
+The `DoT eDNA <https://www.dartmouthocean.com/products/edna/>`_ is one of the most advanced samplers available on the market and we at `Akvaplan <https://akvaplan.no/en>`_ have integrated it on a Slocum glider.
 
 .. image:: /images/DoT.jpg
 
