@@ -23,7 +23,7 @@ Steerable
 ------------------------
 Surface Vehicles
 ============================
-There are a few interesting systems in this category such as the `Waveglider <https://www.liquid-robotics.com/wave-glider/how-it-works/>`_, `Autonaut <https://www.autonautusv.com/>`_ and `Saildrone <https://www.saildrone.com/>`_ but my favorite is a a simple autonomous sail boat called `SailBuoy <http://www.sailbuoy.no>`_. This is probably one of the most elegantly designed vehicles I have seen in this field. It just does what it needs to do, efficiently and  robustly.
+There are a few interesting systems in this category such as the `Waveglider <https://www.liquid-robotics.com/wave-glider/how-it-works/>`_, `Autonaut <https://www.autonautusv.com/>`_ and `Saildrone <https://www.saildrone.com/>`_ but my favorite is a simple autonomous sailboat called `SailBuoy <http://www.sailbuoy.no>`_. This is probably one of the most elegantly designed vehicles I have seen in this field. It just does what it needs to do, efficiently and robustly.
 
 .. image:: /images/sailbuoy.jpg
 
@@ -53,11 +53,11 @@ A glider is considered a type of AUV, but the main differences are that:
 - It's completely autonomous for hours at a time
 - Its propulsion system requires it to move up and down the water column in a sawtooth pattern in order to move forward. 
 - It usually has a very long endurance (in the order of few months)
-- It can cover extremely large distances, such as the the Atlantic ocean
+- It can cover extremely large distances, such as the Atlantic Ocean
 - It's quite slow; around 1 knot
 
 
-An underwater glider works on a similar principle as normal air glider where the medium is water. There is no propeller in either glider, but the main difference is that unlike air gliders, underwater gliders use a neat trick to climb back the water column after gliding down. They do this by changing their density. Gliders are carefully designed to have a density very close to that of water. Then by simply changing their volume (which can be achieved using a simple piston pump or an inflating oil bladder), they can change their density and use the buoyancy force to fly up and down the water column.
+An underwater glider works on a similar principle as a normal air glider where the medium is water. There is no propeller in either glider, but the main difference is that unlike air gliders, underwater gliders use a neat trick to climb back up the water column after gliding down. They do this by changing their density. Gliders are carefully designed to have a density very close to that of water. Then by simply changing their volume (which can be achieved using a simple piston pump or an inflating oil bladder), they can change their density and use the buoyancy force to fly up and down the water column.
 By moving a large weight internally (usually the battery pack) it can control its pitch and by rotating the weight, it can roll and therefore fly towards a certain heading. 
 
 There is a partial vacuum inside the glider. This serves a few purposes: 

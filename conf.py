@@ -30,6 +30,9 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+# Exclude build and virtual environment directories from source scanning
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'venv/**']
+
 # -- Options for HTML output
 
 html_theme = "sphinx_rtd_theme"
