@@ -22,6 +22,10 @@ Security
 
 Iridium comms are not secure. A group in Germany has decoded the data and published their tool online! Listen to their very interesting talk `here <https://youtu.be/JhJT7Cvh6NE?si=9_wxUTpdEPtfm7ry>`_.
 
+FreeWave
+===============
+
+Slocum gliders use this proprietary RF communication system for short range communication (a few kilometers).
 
 Argos
 ===============
@@ -31,7 +35,7 @@ Another constellation used mostly for animal tracking but used on gliders as a b
 LoRa
 ===========
 This is definitely something to explore especially in the DIY glider space, since this protocol is designed for extremely long range, low bandwidth and low power applications, so fits gliders perfectly! You will just need to install a gateway that can cover the area you will operate at, possibly on a high building or a mountain near the sea and you can have a pretty decent coastal coverage. 
-There are now even LoRa satellites in orbit so theoretically, it would be possible to cruise the oceans relying on them, maybe one day!
+There are now satellites that use LoRa for downlinks, and `TinyGS <https://tinygs.com/>`__ is a community-driven global network of ground stations that receive those LoRa satellite transmissions. 
 
 GSM
 ==============

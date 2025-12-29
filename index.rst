@@ -6,8 +6,8 @@
 About this project
 ===========================
 
-The idea for this project was inspired by a `Hackaday Project <https://hackaday.io/project/20458-osug-open-source-underwater-glider/>`_ from Alex Williams which managed to win the Hackaday price of the year 2017. He did an amazing job in my opinion but my aim is to take this idea one step further and create a blueprint for a glider where students and hobbyists from all over the world can use in order to explore and study down to a 200m (and hopefully at a later stage 1000m) of water autonomously for weeks or even months at a time without using an expensive commercial glider.  
-My initial idea is that I would use `GitHub <https://github.com/e-abdi/Open-Source-Glider-wiki>`_ for sharing files, ReadTheDocs for sharing the background knowledge and `Hackaday <https://hackaday.io/project/196850-open-source-glider>`_ to log the build. These are simply the services I found that do what I want, but I am open to any other suggestions. 
+Despite the admirable efforts made so far towards a low-cost open-source underwater glider, the only way to get a glider is buying a commercial unit which costs around 200k USD. My aim is to create a blueprint for a glider where students and hobbyists from all over the world can build (and help improve) in order to explore and study down to a 200m (and hopefully at a later stage 1000m) of water autonomously for weeks or even months at a time without using an expensive commercial glider.  
+I will use `GitHub <https://github.com/e-abdi/Open-Source-Glider-wiki>`_ for sharing the design files, ReadTheDocs for sharing the background knowledge and `Hackaday <https://hackaday.io/project/196850-open-source-glider>`_ to log the build.  
 I am initially using this webpage to gather and share all I know about gliders in one spot. This definitely makes my own life easier, and maybe it would help others too!
 
 .. note::

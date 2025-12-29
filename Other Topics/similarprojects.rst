@@ -3,6 +3,11 @@ Similar Projects
 
 Here are some of the similar projects I found. We can try to join forces or simply learn from them.
 
+OSUG
+-------------------
+https://hackaday.io/project/20458-osug-open-source-underwater-glider
+
+This was the original inspiration for the current effort. Alex Williams did a great job with it and managed to win the the Hackaday prize of 2017 with it. But then he got recuited by a company in California and this project was largely left abandoned. I have however found a few people trying to build and make improvements to it such as `this one <https://hackaday.io/project/186931-open-source-shallow-water-glider>`_. 
 
 SeaGlide
 --------------
