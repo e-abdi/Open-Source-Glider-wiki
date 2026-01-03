@@ -57,3 +57,10 @@ The new version of this glider is called Spray2 has gone through some upgrades a
 
 
 .. image:: /images/spray2.png
+
+SG-1-Lura
+==============
+
+This is developed by `Helsing <https://helsing.ai/de/lura>`_, a German company and clearly they are solely targetting the military market. It's not very clear how operational these are yet but would be interesting to keep an eye on them.
+
+.. image:: /images/SG1-Lura.jpg
