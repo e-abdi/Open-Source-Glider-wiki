@@ -1,20 +1,22 @@
 Background
 ++++++++++++++
-For people who are not coming from Ocean Studies background (as this was the case for me), it might be useful to start with a basic introduction to different types of platforms and systems used to study the oceans. This will help appreciating the gliders for the amazing tool they are but also knowing their limitations. 
+For readers who do not come from an ocean science background, it can be useful to start with a quick overview of the main platforms used to study the ocean. That context makes it easier to appreciate what gliders do well, and also where other platforms are a better fit.
 
 Stationary
 ==============
-The simplest type of stationary platform is a buoy, which is held in place by an anchor. Buoys are primarily used for marking locations, but if they are equipped with sensors, they can also function as weather stations, especially in coastal areas.
-A mooring is a structure anchored to the seafloor that may have a surface buoy or be completely submerged. It often carries sensors at various depths and is typically recovered using a release mechanism.
-A lander is a type of mooring that rests directly on the seafloor and measures environmental variables, such as currents.
+The simplest stationary platform is a buoy held in place by an anchor or mooring line. In oceanography, buoys are often used as surface observation nodes for waves, weather, and sea-surface conditions, and they can also act as communication gateways for instruments below. A good modern example is the commercial `Spotter buoy <https://www.sofarocean.com/products/spotter>`_, which is a compact solar-powered system for real-time surface measurements and can be extended with additional sensors below the surface.
+
+A mooring is a broader term for a system anchored to the seafloor that may include a surface buoy or may remain fully submerged. Moorings can carry sensors at several depths for long periods and are often recovered with an acoustic release.
+
+A lander is a type of bottom-mounted platform that rests directly on the seafloor. Landers are useful when you want measurements or imagery close to the seabed without needing a ship on site the whole time. For a low-cost example, take a look at `DORIS <https://bluerobotics.com/doris/>`_ from Ocean Discovery League, which is being developed as a more accessible deep-ocean research and imaging system.
 
 Moving
 ================
 Non-steerable
 -------------------
-The simplest kind of moving platform is called a drifter. It’s essentially a buoyant structure that floats on the water surface, drifting with currents, and transmits information such as its location at specified intervals.  Check out `this <https://www.onelessbottle.org/oceantracking/>`_ project where they used a simple water bottle as a drifter. 
+The simplest moving platform is a drifter. A drifter usually stays at the surface or near-surface, follows the motion of the water, and reports its position at regular intervals. That makes drifters useful for studying currents, tracking transport pathways, or simply seeing where the water goes. For a low-cost and open-source example, see `Maker Buoy <https://www.makerbuoy.com/>`_. For a more established commercial example, the `CLS MARGET-II Argos-GPS drifter <https://telemetry.groupcls.com/argos-solutions/argos-products/tracker-beacons/mar-ge-t/#technical-specifications>`_ shows the kind of dedicated drifting beacon used in operational and environmental monitoring. A fun ultra-low-cost example is `this <https://www.onelessbottle.org/oceantracking/>`_ project, where they used a simple water bottle as a drifter.
 
-A float is a device that monitors the water column by changing its buoyancy, allowing it to float up and down without any steering capability. Probably the best example of standardization in oceanography is the `Argo program <https://en.wikipedia.org/wiki/Argo_(oceanography)>`_ where they have standardized everything. All the way from hardware to data. 
+A float is a device that monitors the water column by changing its buoyancy, allowing it to move up and down without any steering capability. Floats are different from drifters because they are designed to profile the water column rather than just follow the surface flow. Probably the best example of standardization in oceanography is the `Argo program <https://en.wikipedia.org/wiki/Argo_(oceanography)>`_, where much of the hardware, operation, and data handling has been standardized.
 A French team has designed a low-cost float `here <https://github.com/ThomasLeMezo/seabot/tree/master>`_.
 
 .. image:: /images/argo.jpg
@@ -23,7 +25,9 @@ Steerable
 ------------------------
 Surface Vehicles
 ============================
-There are a few interesting systems in this category such as the `Waveglider <https://www.liquid-robotics.com/wave-glider/how-it-works/>`_, `Autonaut <https://www.autonautusv.com/>`_ and `Saildrone <https://www.saildrone.com/>`_ but my favorite is a simple autonomous sailboat called `SailBuoy <http://www.sailbuoy.no>`_. This is probably one of the most elegantly designed vehicles I have seen in this field. It just does what it needs to do, efficiently and robustly.
+Steerable surface platforms are usually called USVs, or Uncrewed Surface Vehicles. The simplest version is basically an autonomous boat: a floating vehicle with its own propulsion, navigation, communications, and control system. There are now many companies and research groups working on USVs in very different sizes, from small low-cost research boats to large long-endurance industrial platforms. For an open-source example, see the `Aqualink ASV project <https://github.com/aqualinkorg/asv>`_.
+
+Some USVs go a step further and harvest part of their propulsion energy from the environment rather than relying only on batteries or fuel. They may use wave motion, wind, or a hybrid approach to extend endurance and reduce power consumption. Examples include `Waveglider <https://www.liquid-robotics.com/wave-glider/how-it-works/>`_, `Autonaut <https://www.autonautusv.com/>`_, `Saildrone <https://www.saildrone.com/>`_, and my favorite is the super robust and well-designed autonomous sailboat `SailBuoy <http://www.sailbuoy.no>`_. These platforms are especially interesting when you need long missions at the surface with persistent communications and relatively low operating cost.
 
 .. image:: /images/sailbuoy.jpg
 
@@ -31,40 +35,44 @@ Subsea vehicles
 ============================
 Tethered
 -------------------
-An ROV (Remotely Operated Vehicle) is probably the best-known type of ocean platform, often described as an underwater drone. Because ROVs are connected to a surface ship or platform by a tether, they can achieve precise localization and stable hovering. This makes them ideal for tasks that require high precision, such as offshore construction, equipment inspection, and underwater repairs.
+An ROV (Remotely Operated Vehicle) is probably one of the best-known types of ocean platforms, often described as an underwater drone. Because ROVs are connected to a surface ship or platform by a tether, they can achieve precise localization and stable hovering. This makes them ideal for tasks that require high precision, such as offshore construction, equipment inspection, and underwater repairs.
 
 
 .. image:: /images/bluerov.jpg
 
 Untethered
 -------------------------
-These are called Autonomous Underwater Vehicles or AUVs. AUVs usually have one or more propeller and some kind of acoustic navigation system. They are usually used for short missions (few hours to a week or so) to cover a relatively large area with precision. 
+These are called Autonomous Underwater Vehicles or AUVs. AUVs usually have one or more propellers and some kind of acoustic navigation system. They are often used for missions lasting from a few hours to about a week, where the goal is to cover a relatively large area with good control and precision.
 
 .. image:: /images/auv.jpg
 
-There seem to be many educational AUV projects, a few of which are listed below:
+There are quite a few educational and open AUV projects, a few of which are listed below:
 
 * `The MIT Sea Scout <https://oceanai.mit.edu/pavlab/pdfs/proj_seascout.pdf>`_
 * `CPSdrone AUV <https://youtu.be/h1Fw6ZvO_h4?si=z4zoR22lJLV2wuVB>`_
+* `OSRF LRAUV <https://github.com/osrf/lrauv>`_
+
+The `OSRF LRAUV project <https://github.com/osrf/lrauv>`_ is especially worth a look. It focuses on simulation and software around MBARI's long-range AUV platform, and they seem to be onto something. Even if we are not building that exact vehicle, there is a lot to learn from how openly they share models, plugins, examples, and documentation.
 
 
-A glider is considered a type of AUV, but the main differences are that:
+A glider is usually considered a type of AUV, but it behaves quite differently from a propeller-driven vehicle. The main differences are that:
 
-- It's completely autonomous for hours at a time
-- Its propulsion system requires it to move up and down the water column in a sawtooth pattern in order to move forward. 
-- It usually has a very long endurance (in the order of few months)
-- It can cover extremely large distances, such as the Atlantic Ocean
-- It's quite slow; around 1 knot
+- It operates autonomously for long periods
+- It moves forward by repeatedly climbing and diving through the water column in a sawtooth pattern
+- It usually has very long endurance, often on the order of months
+- It can cover extremely large distances, including basin-scale missions
+- It is quite slow, typically around 1 knot
 
 
-An underwater glider works on a similar principle as a normal air glider where the medium is water. There is no propeller in either glider, but the main difference is that unlike air gliders, underwater gliders use a neat trick to climb back up the water column after gliding down. They do this by changing their density. Gliders are carefully designed to have a density very close to that of water. Then by simply changing their volume (which can be achieved using a simple piston pump or an inflating oil bladder), they can change their density and use the buoyancy force to fly up and down the water column.
-By moving a large weight internally (usually the battery pack) it can control its pitch and by rotating the weight, it can roll and therefore fly towards a certain heading. 
+An underwater glider works on a similar principle to an airborne glider, except that the surrounding medium is water. Like an air glider, it has no propeller for continuous forward thrust. The key trick is that it changes its buoyancy to alternate between descending and ascending. Because the vehicle is designed to be very close to neutrally buoyant, a relatively small change in volume is enough to make it slightly heavier or lighter than the surrounding water. That change in buoyancy, together with the wings, produces the slow gliding motion through the water column.
+
+The volume change is usually produced by a piston pump or an external oil bladder. Pitch is often controlled by moving a large internal mass, commonly the battery pack. By shifting that mass fore and aft the glider changes pitch, and by rotating it the glider can roll and steer toward a desired heading.
 
 There is a partial vacuum inside the glider. This serves a few purposes: 
 
-- Sucking all the seal joints together, creating a tighter seal
-- By monitoring the internal pressure we will know right away if there is a leak somewhere. 
-- In order to get oil from external bladder inside the glider, we just open a solenoid valve and the air pressure pushes the oil inside so we save power on pumping
+- It helps pull seals and joints together, which improves sealing
+- By monitoring the internal pressure, we can detect leaks early
+- It can reduce the energy needed to draw oil from an external bladder back into the vehicle
 
 .. image:: /images/parts.png
 
