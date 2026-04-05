@@ -26,6 +26,7 @@ Steerable
 Surface Vehicles
 ============================
 Steerable surface platforms are usually called USVs, or Uncrewed Surface Vehicles. The simplest version is basically an autonomous boat: a floating vehicle with its own propulsion, navigation, communications, and control system. There are now many companies and research groups working on USVs in very different sizes, from small low-cost research boats to large long-endurance industrial platforms. For an open-source example, see the `Aqualink ASV project <https://github.com/aqualinkorg/asv>`_.
+For an educational and student-focused example of long-endurance surface robotics, `Educational Passages <https://educationalpassages.org/>`_ is also worth a look.
 
 Some USVs go a step further and harvest part of their propulsion energy from the environment rather than relying only on batteries or fuel. They may use wave motion, wind, or a hybrid approach to extend endurance and reduce power consumption. Examples include `Waveglider <https://www.liquid-robotics.com/wave-glider/how-it-works/>`_, `Autonaut <https://www.autonautusv.com/>`_, `Saildrone <https://www.saildrone.com/>`_, and my favorite is the super robust and well-designed autonomous sailboat `SailBuoy <http://www.sailbuoy.no>`_. These platforms are especially interesting when you need long missions at the surface with persistent communications and relatively low operating cost.
 
@@ -48,9 +49,10 @@ These are called Autonomous Underwater Vehicles or AUVs. AUVs usually have one o
 
 There are quite a few educational and open AUV projects, a few of which are listed below:
 
+* `OSRF LRAUV <https://github.com/osrf/lrauv>`_
 * `The MIT Sea Scout <https://oceanai.mit.edu/pavlab/pdfs/proj_seascout.pdf>`_
 * `CPSdrone AUV <https://youtu.be/h1Fw6ZvO_h4?si=z4zoR22lJLV2wuVB>`_
-* `OSRF LRAUV <https://github.com/osrf/lrauv>`_
+
 
 The `OSRF LRAUV project <https://github.com/osrf/lrauv>`_ is especially worth a look. It focuses on simulation and software around MBARI's long-range AUV platform, and they seem to be onto something. Even if we are not building that exact vehicle, there is a lot to learn from how openly they share models, plugins, examples, and documentation.
 
