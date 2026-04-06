@@ -13,7 +13,7 @@ Their new glider is called Sentinel, and it is massive. It is no longer operable
 
 Seaexplorer
 ===================
-The Apple of the glider world, Seaexplorer is a polished product with a sleek user interface. It was developed by Alseamar, a large French company in the subsea domain, many years after the original three gliders, so they had plenty of time to learn from earlier designs. They sell a substantial number of units, supported by a strong marketing strategy and decent customer service. Although this is a strong product, I feel that some of their claims can be overstated, or that certain features they highlight are either less impressive in practice or have already been achieved by other glider teams. Either way, if you want a glider that is very simple to use and requires minimal training, this is a strong option. That said, be aware that you may end up locked into their ecosystem. Unless you buy a Seaexplorer, you will likely not be able to touch or work with one of their units. Therefore, most of the information presented here is based on Seaglider and Slocum, which I have personally worked with.
+This is a polished product with a sleek user interface. It was developed by Alseamar, a large French company in the subsea domain, many years after the original three gliders, so they had plenty of time to learn from earlier designs. They sell a substantial number of units, supported by a strong marketing strategy and decent customer service. However, so far I have not had the chance to work with these, so most of the information presented here is based on Seaglider and Slocum, which I have personally worked with.
 
 
 .. image:: /images/seaexplorer.jpg

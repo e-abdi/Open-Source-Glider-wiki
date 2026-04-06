@@ -6,17 +6,18 @@
 About this project
 ===========================
 
-Despite the admirable efforts made so far towards a low-cost open-source underwater glider, the only way to get a glider is buying a commercial unit which costs around 200k USD. My aim is to create a blueprint for a glider where students and hobbyists from all over the world can build (and help improve) in order to explore and study down to a 200m (and hopefully at a later stage 1000m) of water autonomously for weeks or even months at a time without using an expensive commercial glider.  
-I will use `GitHub <https://github.com/e-abdi/Open-Source-Glider-wiki>`_ for sharing the design files, ReadTheDocs for sharing the background knowledge and `Hackaday <https://hackaday.io/project/196850-open-source-glider>`_ to log the build.  
-I am initially using this webpage to gather and share all I know about gliders in one spot. This definitely makes my own life easier, and maybe it would help others too!
+Despite the admirable efforts made so far toward a low-cost, open-source underwater glider, the only practical way to get your hands on one is still to buy a commercial unit, which costs around 200k USD. My aim is to create a blueprint for a glider that students and hobbyists from all over the world can build and improve in order to explore and study the ocean autonomously down to 200 m, and hopefully later 1000 m, for weeks or even months at a time without relying on an expensive commercial glider.
+I will use `GitHub <https://github.com/e-abdi/Open-Source-Glider-wiki>`_ to share the design files, Read the Docs to share background knowledge, and `Hackaday <https://hackaday.io/project/196850-open-source-glider>`_ to log the build.
+I am initially using this website to gather and share what I know about gliders in one place. This definitely makes my own life easier, and maybe it will help others too.
 
 .. note::
    Please feel free to write to me about your suggestions and if you want to join this effort, at ehs.abdi@gmail.com
 
 About the author
 ---------------------
-I am an electronics engineer who has been working with commercial underwater gliders since 2015 and I find them absolutely fascinating and fun! I am by no means an expert in anything! My goal is to transfer what I have learned during this time to the average hobbyist or student and hopefully assist in gathering more data from our oceans. Because I am a believer in citizen science and I think once the gliders are accessible tool to general public, we will see a transformation in ocean data like we've never seen before. However, this is no simple task! Oceans are extremely rough environments. This is why a lot of money and time has been invested in developing all the current commercial units in use and therefore their price point is kind of fair from their perspective. But companies like BlueRobotics have proven that it is possible to create reliable and affordable marine instruments, if you are not scared of an open-source design. My hope is that more and more experts join and contribute to this project to create a robust and affordable open-source underwater glider.
+I am an electronics engineer who has been working with commercial underwater gliders since 2015, and I find them absolutely fascinating and fun. I am by no means an expert in everything. My goal is to transfer what I have learned during this time to the average hobbyist or student and hopefully help gather more data from our oceans. I believe in citizen science, and I think that once gliders and their capabilities become accessible to more people, we will see a transformation in ocean data like never before.
 
+However, this is no simple task. Oceans are extremely harsh environments. That is why a lot of money and time has been invested in developing the current commercial units in use, and from that perspective their price point is understandable. Still, companies like BlueRobotics have shown that it is possible to create reliable and affordable marine instruments if you are not afraid of an open-source design. My hope is that more and more experts will join and contribute to this project to create a robust and affordable open-source underwater glider.
 .. attention::
    I will probably be making a lot of wrong assumptions and flat out mistakes in trying to explain everything there is about gliders and trying to figure out how to build one from scratch! So please do help me! If there is a subject where you have more knowledge about, please correct me and enrich the community. 
 
@@ -37,7 +38,7 @@ I am an electronics engineer who has been working with commercial underwater gli
    :caption: Glider Components
    
    
-   Glider Components/BDS
+   Glider Components/VBD
    Glider Components/electronics
    Glider Components/software
    Glider Components/hulls
