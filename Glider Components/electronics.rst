@@ -13,6 +13,20 @@ Based on this, a more suitable approach is to adopt a layered embedded architect
 Zephyr is a modern, open-source real-time operating system hosted by the Linux Foundation and originally initiated by Intel. It follows industry best practices for safety, security, and modularity, and benefits from a broad, vendor-neutral ecosystem. Unlike many traditional RTOS solutions that are tightly coupled to a single vendor, Zephyr is highly portable and hardware-agnostic, making it well suited for flexible and scalable embedded system design.
 
 
-`Here <https://lucid.app/lucidchart/8746efec-c75f-44b0-9be7-4c806a048f1b/edit?viewport_loc=-11%2C-155%2C2219%2C1017%2C0_0&invitationId=inv_f7b1ec5a-b75d-4923-b846-12c5eede53f9>`_ you can find the current version of a top level block diagram. Again any comments and contributions are welcome.
+Current Implementation in Tuba
+--------------------------------
+The current implementation in Tuba is based on readily available modules rather than using the individual chips directly. At the moment, the electronics stack consists of the following components:
+
+* MCU: ESP32-DevKitC
+* DC-DC converter: MP1584
+* Compass: HMC6343
+* Internal pressure sensor: BMP180
+* GPS: NEO-M8U
+* Data logger: OpenLog
+* External pressure sensor: BlueRobotics Bar Pressure Sensor
+
+
+
+`This block diagram <https://lucid.app/lucidchart/8746efec-c75f-44b0-9be7-4c806a048f1b/edit?viewport_loc=-11%2C-155%2C2219%2C1017%2C0_0&invitationId=inv_f7b1ec5a-b75d-4923-b846-12c5eede53f9>`_ represents the eventual target architecture rather than the exact current implementation. Again any comments and contributions are welcome.
 
 .. image:: /images/blockdiagram.png

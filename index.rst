@@ -40,11 +40,11 @@ However, this is no simple task. Oceans are extremely harsh environments. That i
    :caption: Glider Components
    
    
-   Glider Components/VBD
-   Glider Components/electronics
-   Glider Components/software
    Glider Components/hulls
+   Glider Components/VBD
    Glider Components/attitude
+   Glider Components/electronics
+   Glider Components/firmware
    Glider Components/comms
    Glider Components/battery
    Glider Components/strobe

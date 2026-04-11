@@ -27,3 +27,12 @@ At the surface, a normally closed solenoid valve is opened and oil is drawn into
 The main issue with this approach is finding a reliable pump. One option worth testing is `this small hydraulic pump <https://huinaconstructiontoys.com/products/8mpa-mini-hydraulic-pump-high-pressure-for-kabolite-336-966-huina-1580-ec160e-rc-excavator-bulldozer-upgrade-parts?pr_prod_strat=use_description%E2%89%BArec_id%3D4eb47c173%E2%89%BArec_pid%3D7790484259035%E2%89%BAref_pid%3D7790484291803%E2%89%BAseq%3Duniform>`_. For the bladder itself, an accumulator bladder could be used just like in the commercial gliders.
 
 .. image:: /images/BladderDesign.png
+
+Current Implementation in Tuba
+--------------------------------
+Currently, the VBD in Tuba is implemented using a custom silicone rolling diaphragm made with 3D-printed molds, driven by a simple linear actuator. One of the main design challenges was achieving a reliable seal between the diaphragm and the housing. This was addressed with a large snap ring that applies uniform pressure across the diaphragm, combined with silicone adhesive. Pulling a partial vacuum then does the rest of the work, tightening the seal even further.
+
+The next step is to add a gearbox to the linear actuator motor. This should allow lower operating speeds while providing substantially more force.
+
+.. image:: /images/Tuba_VBD.png
+
