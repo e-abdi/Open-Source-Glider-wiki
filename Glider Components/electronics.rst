@@ -25,6 +25,7 @@ The current implementation in Tuba is based on readily available modules rather 
 * Data logger: OpenLog
 * External pressure sensor: BlueRobotics Bar Pressure Sensor
 
+The current version of the PCB is available at `tuba-pcb <https://github.com/e-abdi/tuba-pcb>`_.
 
 
 `This block diagram <https://lucid.app/lucidchart/8746efec-c75f-44b0-9be7-4c806a048f1b/edit?viewport_loc=-11%2C-155%2C2219%2C1017%2C0_0&invitationId=inv_f7b1ec5a-b75d-4923-b846-12c5eede53f9>`_ represents the eventual target architecture rather than the exact current implementation. Again any comments and contributions are welcome.
