@@ -42,12 +42,14 @@ GSM
 
 For coastal application within a few kilometers from the shore, GSM should suffice. We will explore this option first since it's much more readily accessible.
 
-Current Implementation in Tuba
-=================================
-
-We are currently using both WiFi and RS232 for communication. At this stage, we will be on site for all dives, so we do not need communication range beyond WiFi for now.
 
 Antennas
 =================
 
 GPS and Iridium use very similar frequency range so commercial gliders use a single antenna for both with an RF switch to select which device is currently using the antenna.
+
+
+Current Implementation in Tuba
+=================================
+
+We are currently using both WiFi and RS232 for communication. At this stage, we will be on site for all dives, so we do not need communication range beyond WiFi for now.

@@ -1,12 +1,12 @@
 Acoustics
-++++++++++++++++++++++++++
++++++++++++++++++++++++++
 
-Electromagnetic waves get severely attenuated in salt water so sound is the name of the game for communication, navigation and object detection and characterization underwater. For a fantastic deep dive into the science of sound in the sea I recommend taking a look at `this <https://dosits.org/>`__ website. Also `Blue Robotics <https://bluerobotics.com/learn/a-smooth-operators-guide-to-underwater-sonars-and-acoustic-devices/>`__ has a great guide about acoustics.
+Electromagnetic waves are severely attenuated in salt water, so sound is the main tool for underwater communication, navigation, and object detection. For a deeper introduction to underwater acoustics, take a look at `DOSITS <https://dosits.org/>`__. `Blue Robotics <https://bluerobotics.com/learn/a-smooth-operators-guide-to-underwater-sonars-and-acoustic-devices/>`__ also has a practical guide to common acoustic devices. `This NOAA resource <https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals>`__ is another good overview of sounds in the ocean and marine mammals.
 
-`This paper <https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1106533/full>`__ looks at the use of gliders for acoustic monitoring of the oceans.
+`This paper <https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1106533/full>`__ looks at the use of gliders for acoustic monitoring in the ocean.
 
 .. image:: /images/acoustics.jpg
-	:alt: Acoustic sensing overview
+	:alt: Acoustic soundscape
 
 Passive
 ==============
@@ -14,32 +14,38 @@ Passive
 Hydrophones
 ---------------
 
-Basically a microphone that's molded inside a resin (preferably) with the same density as that of water. 
-The hydrophone element is simple. Although the sensitivity can vary greatly, you can build an extremely simple hydrophone using a piezo ceramic element and some resin around it. What you do with the signal is the important and tricky part! In commercial hydrophones, the most expensive thing you pay for is the calibration. We don't need to worry about that for our purposes here, nevertheless I will go through some of the commercial units I have worked with.
+A hydrophone is basically a microphone encapsulated in resin, ideally with an acoustic impedance close to that of water.
+The sensing element itself can be simple. Although sensitivity varies greatly, you can build a basic hydrophone with a piezoelectric ceramic element and suitable potting material. The difficult part is the analog front end, signal conditioning, and calibration. In commercial units, calibration is often a large part of the cost. We may not need that level of absolute accuracy for an open-source glider, but it is still useful to understand the options that already exist.
+
+`Here <https://www.cetaceanresearch.com/hydrophone-systems/index.html>`__ is a selection of relatively low-cost passive acoustic monitoring systems. `The IQOE Task Team on Low-Cost Hydrophones for Research, Education, and Citizen Science <https://www.iqoe.org/groups/task-team-low-cost-hydrophones-research-education-and-citizen-science>`__ is another useful resource.
+`Here <https://www.aquarianaudio.com/as-1-hydrophone.html>`__ is another fairly low-cost and popular hydrophone element.
 
 Ocean Sonics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Their icListen hydrophones have some nice capabilities. You will get a web interface for the unit in which you can view the live spectrogram, change settings and download files. You also have some simple detection capability in which you can get a notification when a sound level of your chosen frequency range above a set threshold. I have integrated this hydrophone on a Seaglider and designed a board to transmit back these detection events in addition to a text version of the spectrogram events back to shore after every surfacing. 
-They are also a good choice if you want to have a mooring with hydrophones. If you use a low power GSM modem, you can easily have a direct connection to a hydrophone deployed a few kilometers away from the shore like we did `here  <https://www.orcaireland.org/smartwhalesounds>`_.
-They are also a good choice if you want to have a mooring with hydrophones. If you use a low power GSM modem, you can easily have a direct connection to a hydrophone deployed a few kilometers away from the shore like we did `here  <https://www.orcaireland.org/smartwhalesounds>`__.
+Their icListen hydrophones have some nice capabilities. The hydrophone itself provides a web interface where you can view a live spectrogram, change settings, and download files. They also support simple onboard detection, so you can trigger an alert when sound levels in a chosen frequency band exceed a threshold. I have integrated this hydrophone on a Seaglider and designed a board to send detection events, along with a text representation of spectrogram activity, back to shore after each surfacing.
 
-The downside is that they are quite expensive especially compared to something like a SoundTrap. 
+They are also a good choice for fixed moorings. With a low-power GSM modem, you can maintain a direct connection to a hydrophone deployed a few kilometers from shore.
+
+The downside is cost, especially compared to something like a SoundTrap.
 
 SoundTrap
 ^^^^^^^^^^^^^^^^^^^^^^^^
-They make well-designed and relatively affordable hydrophones. I can definitely recommend these. I haven't used these on gliders yet but it should be fairly straightforward to attach one of these to a glider.
+
+They make well-designed and relatively affordable hydrophones. I can definitely recommend them. I have not used one on a glider yet, but integrating one should be fairly straightforward.
 
 Jasco
 ^^^^^^^^^^^^^^^^^^^^^^^^
-They have the most advanced but then also the most expensive hydrophone systems like the `Ocean Observer <https://www.jasco.com/oceanobserver>`__. 
+
+They offer some of the most advanced, and also the most expensive, hydrophone systems, such as the `Ocean Observer <https://www.jasco.com/oceanobserver>`__.
 
 .. image:: /images/jasco.png
 	:alt: JASCO Ocean Observer system
 
-DMON 
+DMON
 ^^^^^^^^^^^^^^^^^^
-A neat system developed by Mark Baumgartner from WHOI for autonomous detection and classification of marine mammals. You can find more info `here <https://robots4whales.whoi.edu/>`__ and there seem to be a commercial version called `DMON2 <https://apps.dtic.mil/sti/pdfs/AD1013952.pdf>`__ soon available.
+
+A neat system developed by Mark Baumgartner at WHOI for autonomous detection and classification of marine mammals. You can find more information `here <https://robots4whales.whoi.edu/>`__. There also appears to be a commercial version called `DMON2 <https://apps.dtic.mil/sti/pdfs/AD1013952.pdf>`__.
 
 .. image:: /images/dmon.jpg
 	:alt: WHOI DMON marine mammal detector
@@ -47,10 +53,11 @@ A neat system developed by Mark Baumgartner from WHOI for autonomous detection a
 
 Hydrophone array
 --------------------
-Hydrophones are usually omnidirectional so in order to get a bearing on the sound source, you either need to use something like a `vector sensor <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`_ (which is basically impossible to get a hold of one because of their military application) or you could use multiple hydrophones. In order to localize a source three dimensions, you need at least four hydrophones. 
+
+Hydrophones are usually omnidirectional, so if you want a bearing to the sound source you either need something like a `vector sensor <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__ or you need multiple hydrophones. Vector sensors are difficult to obtain because of their military applications. To localize a source in three dimensions, you need at least four hydrophones. SeaExplorer seem to have a pretty nice array integrated.
 
 .. image:: /images/array.png
-	:alt: Hydrophone array concept
+	:alt: Hydrophone array SeaExplorer glider
 
 Active
 ==================
@@ -58,47 +65,51 @@ Active
 Echo-sounder
 --------------
 
-An echo-sounder is kind of like the ocean’s version of echolocation—it sends sound pulses down into the water and listens for the echoes that bounce back. By measuring how long it takes for the sound to return, it can figure out how deep the water is or what’s in it.
+An echo-sounder is the ocean's version of echolocation. It sends sound pulses into the water and listens for the echoes that bounce back. By measuring the return time, it can estimate depth or detect targets in the water column.
 
-Scientific echosounders are used for way more than just measuring depth—they help researchers map the seafloor, track fish, study plankton, and even look at bubbles or layers of water with different properties.
+Scientific echosounders do much more than measure depth. They are used to map the seafloor, track fish, study plankton, and observe bubbles or layers of water with different acoustic properties.
 
-The well-known EK80 Echosounder which is the industry standard for scientific research has been integrated on both Seaglider and Slocums and it's also going to be integrated on SeaExplorers.
+The EK80 echosounder, which is the industry standard for scientific research, has been integrated on both Seaglider and Slocum platforms and is also being integrated on SeaExplorer gliders.
 
 
 .. image:: /images/ek80.png
 	:alt: EK80 scientific echosounder
 
 
-`This guy <https://www.youtube.com/@Neumi>`__ is working on a low-cost open-source version.
+`This project <https://www.youtube.com/@Neumi>`__ is working toward a low-cost open-source version.
 
 
 Multibeam
 --------------------
 
-A multibeam is like a fancy version of an echo-sounder. Instead of just sending one sound pulse straight down, it sends out a whole fan-shaped spread of sound beams across the seafloor. That way, it can cover a wide area all at once. Scientists use multibeam systems to make super detailed 3D maps of the ocean floor. They are very power-hungry and need accurate positioning therefore are not really suitable for gliders.
+A multibeam system is a more capable version of an echo-sounder. Instead of sending a single pulse straight down, it transmits a fan of beams across the seafloor. That allows it to cover a wide swath in one pass. Scientists use multibeam systems to create detailed 3D maps of the seabed. They are very power-hungry and require accurate positioning, so they are generally not suitable for gliders.
+
+`This project <https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html>`__ could be useful in the future as inspiration for creating an open-source multibeam system.
 
 Side-scan sonar
 --------------------
 
-Side-scan sonar is like giving the ocean floor a sideways glance. Instead of looking straight down, it sends out sound waves to the sides—kind of like sweeping a flashlight beam across a dark room. It doesn't measure depth directly, but it gives you a detailed image of the seafloor’s texture. It has a transducer array which sends and receives acoustic pulses as it's being towed underneath or behind a vessel at a constant speed. Doing this they can reconstruct an image of the received echos that represents the seafloor and what's on it using dark and bright areas. This is mainly used to cover a large area relatively quickly and inexpensively when looking for a specific feature such as a shipwreck.
+Side-scan sonar is like giving the seafloor a sideways glance. Instead of looking straight down, it sends sound waves to the sides. It does not measure depth directly, but it produces a detailed image of seafloor texture and objects lying on it. A transducer array sends and receives acoustic pulses while the system is towed behind or beneath a vessel at a roughly constant speed. The returned echoes are then reconstructed into an image using bright and dark regions. This is mainly used to cover large areas relatively quickly and inexpensively when looking for specific features such as shipwrecks.
 
 
 Sub-bottom profiler
 ---------------------------
 
-A system used for sending sound pulses down into the seabed, and instead of just bouncing off the surface, those pulses actually penetrate below it. The echoes that come back tell us about the different layers of mud, sand, rock, or whatever’s hiding under the bottom. 
-Again not typically applicable on gliders, however the fact that gliders get closer to seafloor should in theory make this more efficient.
+A sub-bottom profiler sends sound pulses into the seabed. Instead of reflecting only from the surface, some of that energy penetrates below it. The returning echoes reveal different subsurface layers of mud, sand, rock, and other buried structures.
+
+This is not typically a glider payload, but the fact that gliders can operate close to the seafloor could, in theory, make such measurements more efficient.
 
 ADCP
 ----------------
 
-An ADCP—short for Acoustic Doppler Current Profiler—is like a speed radar for ocean currents. It sends out sound waves and measures how they bounce off tiny particles in the water. Thanks to the Doppler effect, it can figure out how fast the water is moving and in which direction—at different depths.
-They have been integrated on all major gliders but making sense of the data they collect from a moving underwater vehicle, is a challenging task.
+An ADCP, short for Acoustic Doppler Current Profiler, is like a speed radar for ocean currents. It sends out sound waves and measures how they bounce off tiny particles in the water. Thanks to the Doppler effect, it can estimate how fast the water is moving, in which direction, and at different depths.
 
-SeaExplorers seem to have a pretty good solution for the data analysis. From what I understand, they are using the Shear method explained in `this paper <https://journals.ametsoc.org/view/journals/atot/19/5/1520-0426_2002_019_0794_dvpula_2_0_co_2.xml>`_.
-For Slocum there are a few packages on GitHub such as `this one <https://github.com/JGradone/Slocum-AD2CP>`__.
-UW has their own solution for this which is not shared publicly. But again I found `this <https://github.com/callumrollo/adcp-glider>`__ on GitHub.
-`This paper <https://journals.ametsoc.org/view/journals/atot/34/2/jtech-d-16-0156.1.xml>`__ explains how this was done using a Spray gliders.
+ADCPs have been integrated on all major glider platforms, but interpreting data collected from a moving underwater vehicle is challenging.
+
+SeaExplorer seems to have a good solution for the data analysis. From what I understand, they use the shear method explained in `this paper <https://journals.ametsoc.org/view/journals/atot/19/5/1520-0426_2002_019_0794_dvpula_2_0_co_2.xml>`__.
+For Slocum, there are a few packages on GitHub such as `this one <https://github.com/JGradone/Slocum-AD2CP>`__.
+UW has its own solution for this, but it is not shared publicly. I also found `this project <https://github.com/callumrollo/adcp-glider>`__ on GitHub.
+`This paper <https://journals.ametsoc.org/view/journals/atot/34/2/jtech-d-16-0156.1.xml>`__ explains how this was done using Spray gliders.
 
 .. image:: /images/adcp.png
 	:alt: ADCP concept on gliders
@@ -106,8 +117,33 @@ UW has their own solution for this which is not shared publicly. But again I fou
 DVL
 --------------------
 
-Stands for doppler velocity logger, and it uses yet again the doppler shift to keep track of speed and direction of an underwater vehicle relative to a solid object such as the seafloor. A team at WHOI have tried using this for under ice navigation.
+This stands for Doppler Velocity Log. It uses the Doppler shift to keep track of the speed and direction of an underwater vehicle relative to a solid boundary such as the seafloor. A team at WHOI has tried using this for under-ice navigation.
 
 
 .. image:: /images/dvl.png
 	:alt: DVL illustration
+
+Resources
+==============
+
+- `DOSITS <https://dosits.org/>`__: A strong general introduction to underwater acoustics and ocean sound.
+- `Blue Robotics guide <https://bluerobotics.com/learn/a-smooth-operators-guide-to-underwater-sonars-and-acoustic-devices/>`__: A practical overview of common underwater sonar and acoustic devices.
+- `NOAA sounds in the ocean resource <https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals>`__: A useful overview focused on ocean sound and marine mammals.
+- `Gliders for acoustic monitoring paper <https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1106533/full>`__: A paper describing the use of gliders for acoustic monitoring in the ocean.
+- `Cetacean Research hydrophone systems page <https://www.cetaceanresearch.com/hydrophone-systems/index.html>`__: A selection of relatively low-cost passive acoustic monitoring systems.
+- `IQOE low-cost hydrophones task team <https://www.iqoe.org/groups/task-team-low-cost-hydrophones-research-education-and-citizen-science>`__: A useful resource on low-cost hydrophones for research, education, and citizen science.
+- `Aquarian Audio AS-1 <https://www.aquarianaudio.com/as-1-hydrophone.html>`__: A fairly low-cost and popular hydrophone element.
+- `JASCO Ocean Observer <https://www.jasco.com/oceanobserver>`__: An example of a high-end hydrophone and passive acoustic monitoring system.
+- `WHOI DMON project <https://robots4whales.whoi.edu/>`__: Information about the DMON system for autonomous detection and classification of marine mammals.
+- `DMON2 reference <https://apps.dtic.mil/sti/pdfs/AD1013952.pdf>`__: A reference describing the DMON2 system.
+- `DOSITS vector sensors page <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__: A short introduction to vector sensors for bearing estimation.
+- `Neumi open-source echosounder project <https://www.youtube.com/@Neumi>`__: A low-cost open-source echosounder effort.
+- `Homemade polarimetric synthetic aperture radar drone project <https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html>`__: A useful source of ideas for a future open-source multibeam system.
+- `Shear method paper <https://journals.ametsoc.org/view/journals/atot/19/5/1520-0426_2002_019_0794_dvpula_2_0_co_2.xml>`__: A paper relevant to ADCP data analysis from moving platforms.
+- `Slocum AD2CP project <https://github.com/JGradone/Slocum-AD2CP>`__: A GitHub project for working with ADCP data from Slocum gliders.
+- `ADCP glider project <https://github.com/callumrollo/adcp-glider>`__: Another open GitHub project for glider ADCP processing.
+- `Spray glider ADCP paper <https://journals.ametsoc.org/view/journals/atot/34/2/jtech-d-16-0156.1.xml>`__: A paper explaining ADCP processing on Spray gliders.
+- `Bioacoustics Stack Exchange <https://bioacoustics.stackexchange.com/questions>`__: A great forum for bioacoustic-related questions.
+- `AudioMoth <https://www.openacousticdevices.info/audiomoth>`__: An open-source acoustic recorder.
+- Some useful tools for working with acoustic files: `PAMGuard <https://www.pamguard.org/>`__, `Audacity <https://www.audacityteam.org/>`__, `Spek <https://www.spek.cc/>`__, and `Praat <https://www.fon.hum.uva.nl/praat/>`__.
+- `SPL calculator <https://sengpielaudio.com/calculator-soundlevel.htm#top>`__: A handy reference for converting and comparing sound pressure level values.

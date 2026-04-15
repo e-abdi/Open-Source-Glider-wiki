@@ -9,6 +9,14 @@ https://hackaday.io/project/20458-osug-open-source-underwater-glider
 
 This was the original inspiration for the current effort. Alex Williams did a great job with it and managed to win the the Hackaday prize of 2017 with it. But then he got recuited by a company in California and this project was largely left abandoned. I have however found a few people trying to build and make improvements to it such as `this one <https://hackaday.io/project/186931-open-source-shallow-water-glider>`_. 
 
+
+Echo Sounder Buoys: Upcycling Playbook
+----------------------------------------
+https://hackaday.io/project/190485-echo-sounder-buoys-upcycling-playbook
+
+A great open-source project where they explore repurposing discarded fish aggregation device (FAD) echo sounder buoys into low-cost, open-source ocean monitoring platforms. These buoys, originally used in commercial fishing, are converted into systems such as hydrophones, cameras, and water quality sensors, leveraging their existing power, communication, and rugged marine design.
+
+
 SeaGlide
 --------------
 https://robonation.app.box.com/s/uwsu84umz7y9aizxbycp2hfsumx9z1y8
@@ -34,6 +42,7 @@ GlideX
 https://youtu.be/sF4YcQr8duc?si=HskKbBRdG0BCvBp1
 
 Admirable effort but I can't find any updates or follow-ups
+
 
 RC Submarines
 -------------------

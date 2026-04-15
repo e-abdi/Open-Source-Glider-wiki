@@ -1,6 +1,7 @@
 Background
 ++++++++++++++
 For readers who do not come from an ocean science background, it can be useful to start with a quick overview of the main platforms used to study the ocean. That context makes it easier to appreciate what gliders do well, and also where other platforms are a better fit.
+If you want a good overview of commercially available ocean technology, take a look at `this yearly buyer's guide <https://www.rovplanet.com/orp-buyers-guide-09-04-2026>`_.
 
 Stationary
 ==============
@@ -77,5 +78,26 @@ There is a partial vacuum inside the glider. This serves a few purposes:
 - It can reduce the energy needed to draw oil from an external bladder back into the vehicle
 
 .. image:: /images/parts.png
+
+Resources
+==============
+
+- `ROV Planet buyer's guide <https://www.rovplanet.com/orp-buyers-guide-09-04-2026>`_: A useful yearly overview of commercially available ocean technology.
+- `Spotter buoy <https://www.sofarocean.com/products/spotter>`_: A modern commercial surface buoy for real-time wave and surface measurements.
+- `DORIS <https://bluerobotics.com/doris/>`_: A low-cost deep-ocean research and imaging lander project from Ocean Discovery League.
+- `Maker Buoy <https://www.makerbuoy.com/>`_: A low-cost open-source drifter example.
+- `CLS MARGET-II Argos-GPS drifter <https://telemetry.groupcls.com/argos-solutions/argos-products/tracker-beacons/mar-ge-t/#technical-specifications>`_: An example of a commercial drifting beacon used in environmental monitoring.
+- `One Less Bottle ocean tracking project <https://www.onelessbottle.org/oceantracking/>`_: A very low-cost drifter concept based on a simple water bottle.
+- `Argo program <https://en.wikipedia.org/wiki/Argo_(oceanography)>`_: A major standardized float program for profiling the global ocean.
+- `Seabot <https://github.com/ThomasLeMezo/seabot/tree/master>`_: A low-cost float project developed by a French team.
+- `Aqualink ASV project <https://github.com/aqualinkorg/asv>`_: An open-source autonomous surface vehicle project.
+- `Educational Passages <https://educationalpassages.org/>`_: Student-focused long-endurance surface robotics projects and programs.
+- `Waveglider <https://www.liquid-robotics.com/wave-glider/how-it-works/>`_: A commercial wave-powered surface vehicle.
+- `Autonaut <https://www.autonautusv.com/>`_: A long-endurance autonomous surface vehicle that harvests wave energy.
+- `Saildrone <https://www.saildrone.com/>`_: A widely used long-endurance uncrewed surface vehicle platform.
+- `SailBuoy <http://www.sailbuoy.no>`_: A robust autonomous sailboat for long-duration ocean observations.
+- `OSRF LRAUV <https://github.com/osrf/lrauv>`_: An open project focused on software and simulation for long-range AUVs.
+- `The MIT Sea Scout <https://oceanai.mit.edu/pavlab/pdfs/proj_seascout.pdf>`_: An educational AUV project and reference.
+- `CPSdrone AUV <https://youtu.be/h1Fw6ZvO_h4?si=z4zoR22lJLV2wuVB>`_: A video reference for an open or educational AUV effort.
 
     

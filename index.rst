@@ -47,6 +47,7 @@ However, this is no simple task. Oceans are extremely harsh environments. That i
    Glider Components/firmware
    Glider Components/comms
    Glider Components/battery
+   Glider Components/fairing
    Glider Components/strobe
    Glider Components/dropweight
 
