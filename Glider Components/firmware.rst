@@ -10,7 +10,7 @@ In contrast, autopilot frameworks such as `PX4 <https://docs.px4.io/main/en/>`_ 
 Based on this, the current idea is for the software in Tuba to follow a layered embedded architecture built on Zephyr. This enables deterministic behavior, low-power operation, and modular design. The system is structured around explicit state machines to manage mission phases, actuator control, and communication, ensuring predictable and testable behavior.
 
 
-Current Implementation in Tuba
+Implementation in Tuba
 --------------------------------
 The current implementation of the Tuba firmware loosely follows the operational model of a Seaglider. After power-up, the system waits for a defined period for user input before entering a recovery mode. In this mode, a simple console menu allows testing of individual hardware components, adjustment of mission parameters, and execution or simulation of dives.
 

@@ -10,9 +10,9 @@ Together with the wings and rudder, the fairing defines the external shape of th
 .. image:: /images/fairing.jpg
     :width: 400
     
-Current Implementation in Tuba
+Implementation in Tuba
 --------------------------------
 For the first prototype of Tuba, we are essentially using a geometry very similar to the SGX glider, which provides a well-established baseline for hydrodynamic performance.
 
-Building on this foundation, future iterations may explore more advanced fairing concepts, including optimized surface geometries and adaptive or parameterized shapes as described in `this paper <https://arxiv.org/html/2505.00222v1>`_.
+Building on this foundation, future iterations may explore more advanced fairing concepts, including optimized surface geometries and adaptive or parameterized shapes as described in `this paper <https://arxiv.org/html/2505.00222v1>`_ or `this one <https://www.mdpi.com/2313-7673/8/1/80>`_.
 

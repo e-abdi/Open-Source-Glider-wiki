@@ -7,7 +7,7 @@ Slocum has one of these and I believe so does the Seaexplorer. Seaglider doesn't
 .. image:: /images/DropWeight.jpg
     :width: 400
 
-Current Implementation in Tuba
+Implementation in Tuba
 --------------------------------
 In our design, we can make use of a `Nichrome burn wire mechanism <https://esmats.eu/amspapers/pastpapers/pdfs/2012/thurn.pdf>`_ used for CubeSats.
 

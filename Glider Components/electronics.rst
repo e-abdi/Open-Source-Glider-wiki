@@ -13,7 +13,7 @@ Based on this, a more suitable approach is to adopt a layered embedded architect
 Zephyr is a modern, open-source real-time operating system hosted by the Linux Foundation and originally initiated by Intel. It follows industry best practices for safety, security, and modularity, and benefits from a broad, vendor-neutral ecosystem. Unlike many traditional RTOS solutions that are tightly coupled to a single vendor, Zephyr is highly portable and hardware-agnostic, making it well suited for flexible and scalable embedded system design.
 
 
-Current Implementation in Tuba
+Implementation in Tuba
 --------------------------------
 The current implementation in Tuba is based on readily available modules rather than using the individual chips directly. At the moment, the electronics stack consists of the following components:
 

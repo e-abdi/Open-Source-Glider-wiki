@@ -7,6 +7,6 @@ In the case of Slocums, the change in heading is achieved by a rudder, which cha
 
 .. image:: /images/attitude.png
 
-Current Implementation in Tuba
+Implementation in Tuba
 --------------------------------
 In the current Tuba implementation, pitch control is achieved by moving the battery pack along a simple T8 lead screw, driven by a geared DC motor. For roll control, the system uses `this planetary gearset <https://www.thingiverse.com/thing:4655373>`_, driven by a second geared DC motor.

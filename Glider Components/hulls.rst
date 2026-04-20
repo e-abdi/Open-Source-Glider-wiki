@@ -33,7 +33,7 @@ This is an important component of any subsea housing that contains batteries. Ba
 .. image:: /images/pressure_relief.jpg
 
 
-Current Implementation in Tuba
+Implementation in Tuba
 --------------------------------
 
 Tuba currently uses two 5-inch Blue Robotics aluminium pressure hulls, joined together using external brackets and six threaded rods. The new `coupler flange <https://bluerobotics.com/store/watertight-enclosures/locking-series/coupler-flanges/>`_ will be extremely useful once they release a 5-inch version.
