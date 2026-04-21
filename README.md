@@ -17,9 +17,9 @@ If you have suggestions or want to contribute, feel free to get in touch at ehs.
 
 ## About the Author
 
-I am an electronics engineer who has been working with commercial underwater gliders since 2015, and I still find them fascinating and fun.
+I am an electronics engineer (and mostly a maker) who has been working with commercial underwater gliders since 2015, and I still find them fascinating and fun.
 
-I am not claiming to be an expert in everything. The goal of this project is to pass along what I have learned to students and hobbyists, and hopefully help make ocean data collection more accessible. I believe strongly in citizen science, and I think that once gliders become accessible to the general public, we could see a major transformation in how ocean data is gathered.
+The goal of this project is to pass along what I have learned to students and hobbyists, and hopefully help make ocean data collection more accessible. I believe strongly in citizen science, and I think that once gliders become accessible to the general public, we could see a major transformation in how ocean data is gathered.
 
 This is not a simple problem. Oceans are harsh environments, and there are good reasons why commercial gliders require so much engineering effort and cost. At the same time, companies like Blue Robotics have shown that reliable and affordable marine instruments can be built around open designs. My hope is that more experts will join and help turn this into a robust and affordable open-source underwater glider.
 
