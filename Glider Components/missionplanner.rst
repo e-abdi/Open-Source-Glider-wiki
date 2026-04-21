@@ -5,14 +5,14 @@ One of the key advantages of basing our system design on Seaglider is that its p
 
 
 .. image:: /images/missionplanner.png
-    :width: 400
+ 
 
 SeaExplorer has a proprietary web tool called Glimpse.
 
 .. image:: /images/glimpse.png
-    :width: 400
+
 
 Slocums have another proprietary tool called SFMC.
 
 .. image:: /images/sfmc.png
-    :width: 400
+ 

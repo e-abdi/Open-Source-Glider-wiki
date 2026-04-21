@@ -51,10 +51,11 @@ A neat system developed by Mark Baumgartner at WHOI for autonomous detection and
 	:alt: WHOI DMON marine mammal detector
 
 
-Hydrophone array
+Directional sensors
 --------------------
 
-Hydrophones are usually omnidirectional, so if you want a bearing to the sound source you either need something like a `vector sensor <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__ or you need multiple hydrophones. Vector sensors are difficult to obtain because of their military applications. To localize a source in three dimensions, you need at least four hydrophones. SeaExplorer seem to have a pretty nice array integrated.
+Hydrophones are usually omnidirectional, so if you want a bearing to the sound source you either need something like a `vector sensor <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__ or you need multiple hydrophones. Vector sensors are difficult to obtain because of their military applications. You can find more information about measuring directivity `here <https://repository.oceanbestpractices.org/server9/api/core/bitstreams/9b9f72bb-2368-4429-978f-fa0778d4fbb8/content>`__.
+To localize a source in three dimensions, you need at least four hydrophones. SeaExplorer seems to have a pretty nice array integrated. There have been some efforts to integrate multiple hydrophones on both Seaglider and Slocum to achieve directionality as well. I have even heard of people considering a towed array from gliders to lower the noise floor, but that sounds a bit risky.
 
 .. image:: /images/array.png
 	:alt: Hydrophone array SeaExplorer glider
@@ -123,6 +124,29 @@ This stands for Doppler Velocity Log. It uses the Doppler shift to keep track of
 .. image:: /images/dvl.png
 	:alt: DVL illustration
 
+Acoustic modems
+--------------------
+
+Acoustic modems are used for communication between two underwater nodes. They are generally low-bandwidth and relatively short-range, but they can be useful, for instance, for downloading data from an underwater mooring using a glider.
+
+.. image:: /images/modem.png
+	:alt: Acoustic modem slocum glider
+	:width: 400
+
+`This modem from WHOI <https://acomms.whoi.edu/micro-modem/>`__ seems to be a nice fit for gliders.
+
+
+Real-time Detection
+=====================
+The ability to process acoustic data in real time and detect specific acoustic events is a key goal in underwater sensing. Systems capable of identifying sounds in a way similar to `Merlin Bird ID <https://merlin.allaboutbirds.org/>`__, but for marine environments, would enable more efficient data collection, event-driven sampling, and adaptive mission behavior.
+
+Recent advances in machine learning are making this increasingly feasible. Projects such as `NatureLM Audio Demo <https://huggingface.co/spaces/MBZUAI/NatureLM-audio>`__ demonstrate the potential of large-scale audio models for detecting and classifying biological sounds across environments.
+
+.. image:: /images/acousticdetection.jpg
+	:alt: Acoustic detection glider
+
+Doing this in near-real-time on low-power hardware is the next goal. `This low-cost DIY project <https://github.com/IQTLabs/AISonobuoy/tree/main/Hydrophone>`__ is a good example of an effort in that direction.
+
 Resources
 ==============
 
@@ -137,12 +161,18 @@ Resources
 - `WHOI DMON project <https://robots4whales.whoi.edu/>`__: Information about the DMON system for autonomous detection and classification of marine mammals.
 - `DMON2 reference <https://apps.dtic.mil/sti/pdfs/AD1013952.pdf>`__: A reference describing the DMON2 system.
 - `DOSITS vector sensors page <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__: A short introduction to vector sensors for bearing estimation.
+- `Directivity measurement reference <https://repository.oceanbestpractices.org/server9/api/core/bitstreams/9b9f72bb-2368-4429-978f-fa0778d4fbb8/content>`__: More information about measuring acoustic directivity.
 - `Neumi open-source echosounder project <https://www.youtube.com/@Neumi>`__: A low-cost open-source echosounder effort.
+- `ThinkSensor products <https://www.thinksensor.com/products>`__: This seems to be another source for low-cost echosounder.
 - `Homemade polarimetric synthetic aperture radar drone project <https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html>`__: A useful source of ideas for a future open-source multibeam system.
 - `Shear method paper <https://journals.ametsoc.org/view/journals/atot/19/5/1520-0426_2002_019_0794_dvpula_2_0_co_2.xml>`__: A paper relevant to ADCP data analysis from moving platforms.
 - `Slocum AD2CP project <https://github.com/JGradone/Slocum-AD2CP>`__: A GitHub project for working with ADCP data from Slocum gliders.
 - `ADCP glider project <https://github.com/callumrollo/adcp-glider>`__: Another open GitHub project for glider ADCP processing.
 - `Spray glider ADCP paper <https://journals.ametsoc.org/view/journals/atot/34/2/jtech-d-16-0156.1.xml>`__: A paper explaining ADCP processing on Spray gliders.
+- `WHOI Micro-Modem <https://acomms.whoi.edu/micro-modem/>`__: An acoustic modem that looks like a good fit for gliders.
+- `Acoustic modem in gliders paper <https://www.mdpi.com/1424-8220/25/3/849>`__: An interesting paper on use of acoustic modem in gliders.
+- `NatureLM Audio Demo <https://huggingface.co/spaces/MBZUAI/NatureLM-audio>`__: A demonstration of a large-scale audio model for detecting and classifying biological sounds.
+- `AISonobuoy hydrophone project <https://github.com/IQTLabs/AISonobuoy/tree/main/Hydrophone>`__: A low-cost DIY project aimed at near-real-time acoustic detection on low-power hardware.
 - `Bioacoustics Stack Exchange <https://bioacoustics.stackexchange.com/questions>`__: A great forum for bioacoustic-related questions.
 - `AudioMoth <https://www.openacousticdevices.info/audiomoth>`__: An open-source acoustic recorder.
 - Some useful tools for working with acoustic files: `PAMGuard <https://www.pamguard.org/>`__, `Audacity <https://www.audacityteam.org/>`__, `Spek <https://www.spek.cc/>`__, and `Praat <https://www.fon.hum.uva.nl/praat/>`__.

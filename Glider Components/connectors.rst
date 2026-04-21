@@ -1,6 +1,9 @@
 Connectors
 +++++++++++++++++
 
+There is no widely established standard for subsea connectors, but there are some promising efforts such as `Bristlemouth <https://bristlemouth.org/documentation>`__. `Blue Robotics <https://bluerobotics.com/learn/wl-connector-standard/>`__ also has a nice page on connector standardization.
+
+
 External
 -------------------
 
@@ -29,4 +32,12 @@ Internal
 
 Implementation in Tuba
 --------------------------------
+
+Currently, we are using a combination of JST-XH series connectors for digital lines and SMA for RF internally. Externally, we have a single MCBH-8F bulkhead connector that acts both as the lab test and communication cable interface and as the shorting plug used to turn the glider on.
+
+For RF, I am currently using coaxial cables passing through penetrators and sealed with Scotchcast resin. For the next version, I plan to try these relatively low-cost underwater connectors from `Blue Trail Engineering <https://www.bluetrailengineering.com/cobalt14>`__.
+
+The idea is to use popular connectors such as some of the JST series and define a standard, expandable pinout, something along the lines of `Qwiic <https://www.sparkfun.com/qwiic>`__.
+
+Another very interesting technology that could be useful for underwater docking is `NiobiCon <https://www.northropgrumman.com/what-we-do/mission-solutions/niobicon>`__.
 

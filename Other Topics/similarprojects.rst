@@ -44,6 +44,20 @@ https://youtu.be/sF4YcQr8duc?si=HskKbBRdG0BCvBp1
 Admirable effort but I can't find any updates or follow-ups
 
 
+OceanAI
+--------------
+https://github.com/daniel360kim/OceanAI#about-the-project
+
+Another interesting project, but it does not seem to have had any recent updates for a few years.
+
+
+Underwater Glider
+-------------------
+https://github.com/ZeinBarhoum/Underwater-Glider
+
+Another inactive bench-tested glider.
+
+
 RC Submarines
 -------------------
 
