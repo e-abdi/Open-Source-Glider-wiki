@@ -17,7 +17,7 @@ If you have suggestions or want to contribute, feel free to get in touch at ehs.
 
 ## About the Author
 
-I am an electronics engineer (and mostly a maker) who has been working with commercial underwater gliders since 2015, and I still find them fascinating and fun.
+I am a maker (with electronics engineering background) who has been working with commercial underwater gliders since 2015, and I still find them fascinating and fun.
 
 The goal of this project is to pass along what I have learned to students and hobbyists, and hopefully help make ocean data collection more accessible. I believe strongly in citizen science, and I think that once gliders become accessible to the general public, we could see a major transformation in how ocean data is gathered.
 

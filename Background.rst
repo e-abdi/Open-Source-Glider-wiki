@@ -1,7 +1,11 @@
 Background
 ++++++++++++++
-For readers who do not come from an ocean science background, it can be useful to start with a quick overview of the main platforms used to study the ocean. That context makes it easier to appreciate what gliders do well, and also where other platforms are a better fit.
+For readers who do not come from an ocean science background, it can be useful to start with a quick overview of the main platforms used to study the ocean. That context makes it easier to appreciate what gliders do well, and also where other platforms are a better fit. 
+
 If you want a good overview of commercially available ocean technology, take a look at `this yearly buyer's guide <https://www.rovplanet.com/orp-buyers-guide-09-04-2026>`_.
+
+`The SCOOP catalogue <https://www.scoop-ocean.org/catalogue>`_ is a nice catalogue of low-cost marine technologies, mainly focused on sensors so far.
+
 
 Stationary
 ==============

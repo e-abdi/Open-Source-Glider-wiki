@@ -150,29 +150,57 @@ Doing this in near-real-time on low-power hardware is the next goal. `This low-c
 Resources
 ==============
 
+General acoustics
+------------------
+
 - `DOSITS <https://dosits.org/>`__: A strong general introduction to underwater acoustics and ocean sound.
 - `Blue Robotics guide <https://bluerobotics.com/learn/a-smooth-operators-guide-to-underwater-sonars-and-acoustic-devices/>`__: A practical overview of common underwater sonar and acoustic devices.
 - `NOAA sounds in the ocean resource <https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals>`__: A useful overview focused on ocean sound and marine mammals.
 - `Gliders for acoustic monitoring paper <https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1106533/full>`__: A paper describing the use of gliders for acoustic monitoring in the ocean.
+
+Hydrophones and passive monitoring
+-----------------------------------
+
 - `Cetacean Research hydrophone systems page <https://www.cetaceanresearch.com/hydrophone-systems/index.html>`__: A selection of relatively low-cost passive acoustic monitoring systems.
 - `IQOE low-cost hydrophones task team <https://www.iqoe.org/groups/task-team-low-cost-hydrophones-research-education-and-citizen-science>`__: A useful resource on low-cost hydrophones for research, education, and citizen science.
 - `Aquarian Audio AS-1 <https://www.aquarianaudio.com/as-1-hydrophone.html>`__: A fairly low-cost and popular hydrophone element.
+- `Nauta RCS <https://www.nauta-rcs.it/wp/>`__: A company based in Italy manufacturing low-cost acoustic devices.
 - `JASCO Ocean Observer <https://www.jasco.com/oceanobserver>`__: An example of a high-end hydrophone and passive acoustic monitoring system.
 - `WHOI DMON project <https://robots4whales.whoi.edu/>`__: Information about the DMON system for autonomous detection and classification of marine mammals.
 - `DMON2 reference <https://apps.dtic.mil/sti/pdfs/AD1013952.pdf>`__: A reference describing the DMON2 system.
+
+Directional sensing
+--------------------
+
 - `DOSITS vector sensors page <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__: A short introduction to vector sensors for bearing estimation.
 - `Directivity measurement reference <https://repository.oceanbestpractices.org/server9/api/core/bitstreams/9b9f72bb-2368-4429-978f-fa0778d4fbb8/content>`__: More information about measuring acoustic directivity.
+
+Active acoustics
+-----------------
+
 - `Neumi open-source echosounder project <https://www.youtube.com/@Neumi>`__: A low-cost open-source echosounder effort.
 - `ThinkSensor products <https://www.thinksensor.com/products>`__: This seems to be another source for low-cost echosounder.
 - `Homemade polarimetric synthetic aperture radar drone project <https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html>`__: A useful source of ideas for a future open-source multibeam system.
+
+Current profiling and glider processing
+----------------------------------------
+
 - `Shear method paper <https://journals.ametsoc.org/view/journals/atot/19/5/1520-0426_2002_019_0794_dvpula_2_0_co_2.xml>`__: A paper relevant to ADCP data analysis from moving platforms.
 - `Slocum AD2CP project <https://github.com/JGradone/Slocum-AD2CP>`__: A GitHub project for working with ADCP data from Slocum gliders.
 - `ADCP glider project <https://github.com/callumrollo/adcp-glider>`__: Another open GitHub project for glider ADCP processing.
 - `Spray glider ADCP paper <https://journals.ametsoc.org/view/journals/atot/34/2/jtech-d-16-0156.1.xml>`__: A paper explaining ADCP processing on Spray gliders.
+
+Acoustic modems and detection
+------------------------------
+
 - `WHOI Micro-Modem <https://acomms.whoi.edu/micro-modem/>`__: An acoustic modem that looks like a good fit for gliders.
 - `Acoustic modem in gliders paper <https://www.mdpi.com/1424-8220/25/3/849>`__: An interesting paper on use of acoustic modem in gliders.
 - `NatureLM Audio Demo <https://huggingface.co/spaces/MBZUAI/NatureLM-audio>`__: A demonstration of a large-scale audio model for detecting and classifying biological sounds.
 - `AISonobuoy hydrophone project <https://github.com/IQTLabs/AISonobuoy/tree/main/Hydrophone>`__: A low-cost DIY project aimed at near-real-time acoustic detection on low-power hardware.
+
+Software and reference tools
+-----------------------------
+
 - `Bioacoustics Stack Exchange <https://bioacoustics.stackexchange.com/questions>`__: A great forum for bioacoustic-related questions.
 - `AudioMoth <https://www.openacousticdevices.info/audiomoth>`__: An open-source acoustic recorder.
 - Some useful tools for working with acoustic files: `PAMGuard <https://www.pamguard.org/>`__, `Audacity <https://www.audacityteam.org/>`__, `Spek <https://www.spek.cc/>`__, and `Praat <https://www.fon.hum.uva.nl/praat/>`__.
