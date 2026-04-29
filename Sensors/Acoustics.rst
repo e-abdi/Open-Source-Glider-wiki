@@ -140,7 +140,7 @@ Real-time Detection
 =====================
 The ability to process acoustic data in real time and detect specific acoustic events is a key goal in underwater sensing. Systems capable of identifying sounds in a way similar to `Merlin Bird ID <https://merlin.allaboutbirds.org/>`__, but for marine environments, would enable more efficient data collection, event-driven sampling, and adaptive mission behavior.
 
-Recent advances in machine learning are making this increasingly feasible. Projects such as `NatureLM Audio Demo <https://huggingface.co/spaces/MBZUAI/NatureLM-audio>`__ demonstrate the potential of large-scale audio models for detecting and classifying biological sounds across environments.
+Recent advances in machine learning are making this increasingly feasible. Projects such as `NatureLM Audio Demo <https://earthspecies.github.io/naturelm-audio-demo/>`__ demonstrate the potential of large-scale audio models for detecting and classifying biological sounds across environments.
 
 .. image:: /images/acousticdetection.jpg
 	:alt: Acoustic detection glider
