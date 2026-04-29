@@ -42,13 +42,13 @@ However, this is no simple task. Oceans are extremely harsh environments. That i
 
    Glider Components/hulls
    Glider Components/VBD
-   Glider Components/altimeter
    Glider Components/attitude
    Glider Components/electronics
    Glider Components/firmware
    Glider Components/comms
    Glider Components/battery
    Glider Components/fairing
+   Glider Components/altimeter
    Glider Components/missionplanner
    Glider Components/strobe
    Glider Components/dropweight
