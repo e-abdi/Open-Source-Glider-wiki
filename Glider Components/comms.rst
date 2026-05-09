@@ -1,55 +1,55 @@
 Communication
 +++++++++++++++++++++++
 
-Electromagnetic waves don't do well in water. Most frequencies attenuate rapidly after a few centimeters of water, especially salt water. However, if you are in freshwater and using quite low frequencies, you could get your signal down to a few meters. I have heard of the hobby submarine community operating their RC subs down to 10m or so in freshwater. Although this might have interesting applications down the line, from here on, we will be either talking about electromagnetic based communication when glider is at surface, or acoustic communication when glider is underwater.  
-It's very important to communicate efficiently in the oceans because communication is expensive both in terms of money and power budget. Here is another point where Seaglider has a far better design than Slocum. The number of kbytes transferred by Seaglider for a similar mission is many times smaller than that of Slocum.
+Electromagnetic waves do not travel well in water. Most frequencies attenuate rapidly after just a few centimeters, especially in salt water. However, in freshwater and at quite low frequencies, it is possible to get a signal down to a few meters. I have heard of hobby submarine groups operating their RC subs down to around 10 m in freshwater. Although that might have interesting applications down the line, from here on we will focus on electromagnetic communication when the glider is at the surface, and acoustic communication when it is underwater.  
+It is very important to communicate efficiently in the ocean because communication is expensive in both money and power budget. This is another area where Seaglider has a much better design than Slocum. The number of kilobytes transferred by Seaglider for a similar mission is many times smaller than that of Slocum.
 
 Iridium
 =======================
 
-The go-to communication method of extremely remote areas, since Iridium has a pole to pole coverage. A marvel of engineering for its time and with a crazy story of how all of its satellites almost got shot down by rockets!
-I definitely recommend checking out the book  `Eccentric Orbits: The Iridium Story <https://a.co/d/aCnYIyf>`_.
+The go-to communication method for extremely remote areas, since Iridium has pole-to-pole coverage. It was a marvel of engineering for its time, and it has a wild history in which its satellites nearly got shot down by rockets.
+I definitely recommend checking out the book `Eccentric Orbits: The Iridium Story <https://a.co/d/aCnYIyf>`_.
 
 
 SBD vs Rudics
 ------------------------
 
-SBD is simple packet-based service which doesn't need a SIM card and it's mostly used for global asset tracking like containers. You can use this for transferring small amount of data.
-RUDICS is a circuit-switched data transfer method used for sending larger data. All gliders except for the OceanScout use this method. It's more reliable but it comes with a higher cost and more power consumption.
+SBD is a simple packet-based service that does not need a SIM card, and it is mostly used for global asset tracking applications such as containers. You can use it to transfer small amounts of data.
+RUDICS is a circuit-switched data transfer method used for sending larger volumes of data. All gliders except the OceanScout use this method. It is more reliable, but it comes with higher cost and power consumption.
 
 Security
 -------------
 
-Iridium comms are not secure. A group in Germany has decoded the data and published their tool online! Listen to their very interesting talk `here <https://youtu.be/JhJT7Cvh6NE?si=9_wxUTpdEPtfm7ry>`_.
+Iridium communications are not secure. A group in Germany decoded the traffic and published their tools online. Their talk is worth watching `here <https://youtu.be/JhJT7Cvh6NE?si=9_wxUTpdEPtfm7ry>`_.
 
 FreeWave
 ===============
 
-Slocum gliders use this proprietary RF communication system for short range communication (a few kilometers).
+Slocum gliders use this proprietary RF communication system for short-range communication over a few kilometers.
 
 Argos
 ===============
 
-Another constellation used mostly for animal tracking but used on gliders as a backup system. The localization method is based on doppler effect so it's quite low accuracy but a good last resort! The new generation of trackers actually use GPS for more location accuracy and actually use the satellites for data transmission. Apparently you can even send a few more bytes alongside the GPS lines which could be interesting in our case! but haven't tried this yet.
+Another constellation used mostly for animal tracking, but also used on gliders as a backup system. The localization method is based on the Doppler effect, so the accuracy is quite low, but it is still a good last resort. The new generation of trackers uses GPS for better positioning and the satellites for data transmission. Apparently you can even send a few more bytes alongside the GPS lines, which could be interesting in our case, but I have not tried this yet.
 
 LoRa
 ===========
-This is definitely something to explore especially in the DIY glider space, since this protocol is designed for extremely long range, low bandwidth and low power applications, which fits gliders perfectly! You will just need to install a gateway that can cover the area you will operate at, possibly on a high building or a mountain near the sea and you can have a pretty decent coastal coverage. 
-There are now satellites that use LoRa for downlinks, and `TinyGS <https://tinygs.com/>`__ is a community-driven global network of ground stations that receive those LoRa satellite transmissions. 
+This is definitely something to explore, especially in the DIY glider space, since this protocol is designed for extremely long-range, low-bandwidth, and low-power applications, which fits gliders very well. You would just need to install a gateway that can cover your operating area, possibly on a tall building or a mountain near the sea, to get fairly good coastal coverage.
+There are now satellites that support LoRa links as well. One interesting example is `FOSSA Systems <https://fossa.systems/>`__, which offers low-cost two-way IoT communication over its satellite network.
 
-GSM
+Cellular
 ==============
 
-For coastal application within a few kilometers from the shore, GSM should suffice. We will explore this option first since it's much more readily accessible.
+For coastal applications within a few kilometers of shore, cellular protocols should be a practical option. IoT-focused standards such as LTE-M and NB-IoT are especially interesting here, and we will explore this route first because it is much more accessible than satellite links.
 
 
 Antennas
 =================
 
-GPS and Iridium use very similar frequency range so commercial gliders use a single antenna for both with an RF switch to select which device is currently using the antenna.
+GPS and Iridium use very similar frequency ranges, so commercial gliders often use a single antenna for both, with an RF switch to select which device is currently connected.
 
 
 Implementation in Tuba
 =================================
 
-We are currently using both WiFi and RS232 for communication. At this stage, we will be on site for all dives, so we do not need communication range beyond WiFi for now.
+We are currently using WiFi for communication. At this stage, we will be on site for all dives, so we do not need communication range beyond WiFi. The next step will be to upgrade this to LTE-M and possibly LoRa.
