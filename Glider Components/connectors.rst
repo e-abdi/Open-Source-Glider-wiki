@@ -18,8 +18,12 @@ Another popular type of connector popular on gliders is the impulse IE55 series.
 .. image:: /images/IE55.png
     :width: 400
 
+Seaglider also uses these AMTEK coax connectors for the antenna cable.
 
-The exciting news is that BlueRobotics is working on a new line of low-cost underwater connectors so this might be a game-changer.
+.. image:: /images/AMTEK.png
+    
+
+The exciting news here is that BlueRobotics is working on a new line of low-cost underwater connectors so this might be a game-changer.
 
 .. image:: /images/BRconnector.png
     :width: 400
@@ -27,15 +31,32 @@ The exciting news is that BlueRobotics is working on a new line of low-cost unde
 Internal
 --------------------
 
+Slocums use a combination of Molex and a circular military-spec connector which is quite strong but very annoying, difficult, and awkward to tighten and loosen.
+
+.. image:: /images/slocumconnectors.jpg
+    :width: 400
+
+Seagliders use a combination of different TE Connectivity connectors for power and signal and SMA for antenna connection.
+
+.. image:: /images/seagliderconnectors.png
+    :width: 400
+
+OceanScout uses these cool connectors with combined RF and digital lines.
+
+.. image:: /images/nicomatic.png
+    :width: 400
 
 
 
 Implementation in Tuba
 --------------------------------
 
-Currently, we are using a combination of JST-XH series connectors for digital lines and SMA for RF internally. Externally, we have a single MCBH-8F bulkhead connector that acts both as the lab test and communication cable interface and as the shorting plug used to turn the glider on.
+Currently, we are using a combination of JST-XH series connectors for digital lines and SMA for RF internally, as shown in `Tuba wiring <https://github.com/e-abdi/tuba-wiring>`__. Externally, we have a single MCBH-8F bulkhead connector that acts both as the lab test and communication cable interface and as the shorting plug used to turn the glider on.
 
 For RF, I am currently using coaxial cables passing through penetrators and sealed with Scotchcast resin. For the next version, I plan to try these relatively low-cost underwater connectors from `Blue Trail Engineering <https://www.bluetrailengineering.com/cobalt14>`__.
+
+.. image:: /images/bluetrail.png
+    :width: 400
 
 The idea is to use popular connectors such as some of the JST series and define a standard, expandable pinout, something along the lines of `Qwiic <https://www.sparkfun.com/qwiic>`__.
 
