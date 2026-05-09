@@ -30,7 +30,7 @@ The main issue with this approach is finding a reliable pump. One option worth t
 
 Implementation in Tuba
 --------------------------------
-Currently, the VBD in Tuba is implemented using a custom silicone rolling diaphragm made with 3D-printed molds, driven by a simple linear actuator. One of the main design challenges was achieving a reliable seal between the diaphragm and the housing. This was addressed with a large snap ring that applies uniform pressure across the diaphragm, combined with silicone adhesive. Pulling a partial vacuum then does the rest of the work, tightening the seal even further.
+Currently, the VBD in Tuba is implemented using a custom silicone rolling diaphragm made with 3D-printed molds, and potentially can be printed directly in silicone using `Filament2 <https://www.filament2.com/>`_ on a Prusa XL, driven by a simple linear actuator. One of the main design challenges was achieving a reliable seal between the diaphragm and the housing. This was addressed with a large snap ring that applies uniform pressure across the diaphragm, combined with silicone adhesive. Pulling a partial vacuum then does the rest of the work, tightening the seal even further.
 
 The next step is to add a gearbox to the linear actuator motor. This should allow lower operating speeds while providing substantially more force.
 
