@@ -78,6 +78,7 @@ However, this is no simple task. Oceans are extremely harsh environments. That i
    :caption: Other Topics
 
    Other Topics/data
+   Other Topics/community
    Other Topics/nav
    Other Topics/ballasting
    Other Topics/citizenscience
