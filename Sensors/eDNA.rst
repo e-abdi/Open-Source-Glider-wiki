@@ -7,6 +7,6 @@ eDNA is a powerful tool for studying biodiversity, tracking rare or invasive spe
 
 The `DoT eDNA <https://www.dartmouthocean.com/products/edna/>`_ is one of the most advanced samplers available on the market and we at `Akvaplan <https://akvaplan.no/en>`_ have integrated it on a Slocum glider.
 
-.. image:: /images/DoT.jpg
+.. image:: /images/dot-edna.png
 	:alt: DoT eDNA sampler integrated on a Slocum glider
 

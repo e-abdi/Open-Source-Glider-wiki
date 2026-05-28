@@ -26,8 +26,10 @@ The `UG2 Slack signup
 <https://github.com/OceanGlidersCommunity>`_ contain a lot of useful
 information about gliders, operations, and shared resources.
 
-`EGO <https://www.ego-network.org/dokuwiki/doku.php>`_ is another older effort
-with useful resources, including access to many presentations from past glider
+The older `EGO <https://www.ego-network.org/dokuwiki/doku.php>`_ effort is now
+represented by the `European Glider Community
+<https://www.europeanglidercommunity.org/>`_, which continues to provide useful
+resources, including access to many presentations from past glider
 conferences.
 
 Glider Infrastructure
