@@ -55,7 +55,7 @@ Directional sensors
 --------------------
 
 Hydrophones are usually omnidirectional, so if you want a bearing to the sound source you either need something like a `vector sensor <https://dosits.org/galleries/technology-gallery/basic-technology/vector-sensors/>`__ or you need multiple hydrophones. Vector sensors are difficult to obtain because of their military applications. You can find more information about measuring directivity `here <https://repository.oceanbestpractices.org/server9/api/core/bitstreams/9b9f72bb-2368-4429-978f-fa0778d4fbb8/content>`__.
-To localize a source in three dimensions, you need at least four hydrophones. SeaExplorer seems to have a pretty nice array integrated. There have been some efforts to integrate multiple hydrophones on both Seaglider and Slocum to achieve directionality as well. I have even heard of people considering a towed array from gliders to lower the noise floor, but that sounds a bit risky.
+To localize a source in three dimensions, you need at least four hydrophones. SeaExplorer seems to have a pretty nice array integrated called Auris. There have been some efforts to integrate multiple hydrophones on both Seaglider and Slocum to achieve directionality as well. I have even heard of people considering a towed array from gliders to lower the noise floor, but that sounds a bit risky.
 
 .. image:: /images/array.png
 	:alt: Hydrophone array SeaExplorer glider
@@ -203,5 +203,6 @@ Software and reference tools
 
 - `Bioacoustics Stack Exchange <https://bioacoustics.stackexchange.com/questions>`__: A great forum for bioacoustic-related questions.
 - `AudioMoth <https://www.openacousticdevices.info/audiomoth>`__: An open-source acoustic recorder.
+- `Echopype <https://echopype.readthedocs.io/en/latest/>`__: An open-source Python library for interoperable and scalable processing of ocean echosounder and sonar data.
 - Some useful tools for working with acoustic files: `PAMGuard <https://www.pamguard.org/>`__, `Audacity <https://www.audacityteam.org/>`__, `Spek <https://www.spek.cc/>`__, and `Praat <https://www.fon.hum.uva.nl/praat/>`__.
 - `SPL calculator <https://sengpielaudio.com/calculator-soundlevel.htm#top>`__: A handy reference for converting and comparing sound pressure level values.

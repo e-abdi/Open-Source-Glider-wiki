@@ -60,5 +60,7 @@ For RF, I am currently using coaxial cables passing through penetrators and seal
 
 The idea is to use popular connectors such as some of the JST series and define a standard, expandable pinout, something along the lines of `Qwiic <https://www.sparkfun.com/qwiic>`__.
 
+One interesting idea I recently came across is using `these pogo pins <https://discuss.bluerobotics.com/t/pogo-pin-connectors-are-great-for-br-enclosures/22983>`__ and designing the enclosure brackets so that closing the enclosure mates the connector automatically. I think I might try that in the future.
+
 Another very interesting technology that could be useful for underwater docking is `NiobiCon <https://www.northropgrumman.com/what-we-do/mission-solutions/niobicon>`__.
 

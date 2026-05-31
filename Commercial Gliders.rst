@@ -50,14 +50,20 @@ A glider developed by Tianjin University in China. While much of the glider comm
 
 Spray
 ==============
-Developed jointly by Scripps and WHOI, Spray was one of the original three gliders but was not commercialized. An interesting feature of Spray is that its antenna is situated in the wing, so when it reaches the surface it rolls to one side to lift the wing out of the water and initiate a call, which is a neat touch.
+Developed jointly by Scripps and WHOI, Spray was one of the original three gliders and was licensed to `Bluefin Robotics <https://gdmissionsystems.com/underwater-vehicles/bluefin-robotics>`_. An interesting feature of Spray is that its antenna is situated in the wing, so when it reaches the surface it rolls to one side to lift the wing out of the water and initiate a call, which is a neat touch.
 
 .. image:: /images/spray.jpg
 
-The new version of this glider, called Spray2, has gone through a number of upgrades and is being commercialized by `MRV <https://www.mrvsys.com/>`_.
+The new version of this glider, called Spray2, has gone through a number of upgrades and is being commercialized by `MRV <https://www.mrvsys.com/>`_, which has now been acquired by `General Oceans <https://www.generaloceans.com/>`_. That means they now officially own both OceanScout and Spray2, so it will be interesting to see what they decide to do with these two gliders.
 
 
 .. image:: /images/spray2.png
+
+MOD2
+==============
+`Exocetus <https://www.exocetus.co/>`_ is a relatively new glider company based in Connecticut. According to their datasheet, the buoyancy engine is five times larger than that of other gliders, which I assume means it is around 5 L, which is impressive. The obvious downside is higher power consumption, and that seems to show up in the quoted endurance of 30 days on primary batteries.
+
+.. image:: /images/mod2.jpg
 
 SG-1-Lura
 ==============
