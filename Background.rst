@@ -64,11 +64,15 @@ The `OSRF LRAUV project <https://github.com/osrf/lrauv>`_ is especially worth a 
 
 A glider is usually considered a type of AUV, but it behaves quite differently from a propeller-driven vehicle. The main differences are that:
 
-- It operates autonomously for long periods
-- It moves forward by repeatedly climbing and diving through the water column in a sawtooth pattern
-- It usually has very long endurance, often on the order of months
-- It can cover extremely large distances, including basin-scale missions
-- It is quite slow, typically around 1 knot
+- It operates **autonomously** for **long periods**, often on the order of months
+- It moves forward by repeatedly climbing and diving through the water column in a **sawtooth pattern**
+- It can cover extremely **large distances**, often on the order of thousands of kilometers, with **very low energy consumption**
+- It is **quite slow**, typically around 0.5 knot
+
+
+.. note:: **Main takeaway**
+
+   Ocean gliders have become an important tool for sustained ocean observation because they combine long endurance, low power consumption, and high-resolution sampling in a mobile platform. By changing buoyancy rather than relying on continuous propulsion, a glider repeatedly dives and climbs through the water column, following a characteristic sawtooth flight path while progressing horizontally between waypoints. This allows it to collect repeated profiles over large spatial areas and long time periods, often reaching depths of around 1000 m or more depending on the platform. Even with a basic sensor payload, gliders can measure essential ocean variables such as temperature, salinity, pressure, and depth-averaged currents. Together, these observations provide valuable insight into the structure, variability, and movement of ocean water masses, helping to bridge the gap between fixed-point moorings, drifting floats, satellite observations, and ship-based surveys.
 
 
 An underwater glider works on a similar principle to an airborne glider, except that the surrounding medium is water. Like an air glider, it has no propeller for continuous forward thrust. The key trick is that it changes its buoyancy to alternate between descending and ascending. Because the vehicle is designed to be very close to neutrally buoyant, a relatively small change in volume is enough to make it slightly heavier or lighter than the surrounding water. That change in buoyancy, together with the wings, produces the slow gliding motion through the water column.
@@ -78,7 +82,7 @@ The volume change is usually produced by a piston pump or an external oil bladde
 There is a partial vacuum inside the glider. This serves a few purposes: 
 
 - It helps pull seals and joints together, which improves sealing
-- By monitoring the internal pressure, we can detect leaks early
+- By monitoring the internal pressure, we can detect leaks early. If it's letting air in, it's probably going to let water in too. 
 - It can reduce the energy needed to draw oil from an external bladder back into the vehicle
 
 .. image:: /images/parts.png
