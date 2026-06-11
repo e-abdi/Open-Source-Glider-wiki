@@ -31,7 +31,15 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # Exclude build and virtual environment directories from source scanning
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv', 'venv/**']
+exclude_patterns = [
+    '_build',
+    'Thumbs.db',
+    '.DS_Store',
+    'venv',
+    'venv/**',
+    '.venv',
+    '.venv/**',
+]
 
 # -- Options for HTML output
 
