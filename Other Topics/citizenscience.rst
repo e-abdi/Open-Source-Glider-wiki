@@ -5,6 +5,14 @@ Contributing to citizen science is one of the main goals of this project. In rec
 
 Below is a selection of platforms and projects that provide opportunities to get involved:
 
+
+OceanObservers
+==============
+
+An international educational initiative that shares marine science resources and connects classrooms directly to ocean observing networks. It is perhaps best known for its "Adopt a Float" program, where students and sailors help deploy Argo floats during marine races and expeditions. It is coordinated through partnerships including Euro-Argo ERIC, OceanOPS, and Ifremer.
+
+https://www.oceanobservers.org/
+
 Citizen Science Ocean Project Finder
 ====================================
 

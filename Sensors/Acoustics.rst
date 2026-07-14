@@ -135,6 +135,8 @@ Acoustic modems are used for communication between two underwater nodes. They ar
 
 `This modem from WHOI <https://acomms.whoi.edu/micro-modem/>`__ seems to be a nice fit for gliders.
 
+For a low-cost open-source route, `BlueBuzz <https://par.nsf.gov/servlets/purl/10465854>`__ is an open-source acoustic modem developed at Georgia Tech. It is designed to be reconfigurable, easy to build, and interoperable across different platforms via WiFi, Ethernet, USB, or UART, which makes it an interesting starting point for an open-source glider.
+
 
 Real-time Detection
 =====================
@@ -157,6 +159,7 @@ General acoustics
 - `Blue Robotics guide <https://bluerobotics.com/learn/a-smooth-operators-guide-to-underwater-sonars-and-acoustic-devices/>`__: A practical overview of common underwater sonar and acoustic devices.
 - `NOAA sounds in the ocean resource <https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals>`__: A useful overview focused on ocean sound and marine mammals.
 - `Gliders for acoustic monitoring paper <https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1106533/full>`__: A paper describing the use of gliders for acoustic monitoring in the ocean.
+- `PAM-Glider <https://nmfs-ost.github.io/PAM-Glider/>`__: A NOAA Fisheries resource on deploying passive acoustic monitoring on underwater gliders, with documentation on platforms, sensors, data processing, and deployments.
 
 Hydrophones and passive monitoring
 -----------------------------------
@@ -180,6 +183,8 @@ Active acoustics
 
 - `Neumi open-source echosounder project <https://www.youtube.com/@Neumi>`__: A low-cost open-source echosounder effort.
 - `ThinkSensor products <https://www.thinksensor.com/products>`__: This seems to be another source for low-cost echosounder.
+- `UC&NL (unavlab) <https://www.unavlab.com/en/>`__: A company making compact acoustic communication and navigation devices, including USBL positioning systems and small acoustic modems.
+- `Kogger <https://kogger.tech/products/>`__: A company offering low-cost 2D, side-scan, and down-view sonars, echosounders, and bathymetric kits, including OEM sonar cores for integrators.
 - `Homemade polarimetric synthetic aperture radar drone project <https://hforsten.com/homemade-polarimetric-synthetic-aperture-radar-drone.html>`__: A useful source of ideas for a future open-source multibeam system.
 
 Current profiling and glider processing
@@ -194,6 +199,7 @@ Acoustic modems and detection
 ------------------------------
 
 - `WHOI Micro-Modem <https://acomms.whoi.edu/micro-modem/>`__: An acoustic modem that looks like a good fit for gliders.
+- `BlueBuzz <https://par.nsf.gov/servlets/purl/10465854>`__: A paper describing an open-source, reconfigurable acoustic modem developed at Georgia Tech.
 - `Acoustic modem in gliders paper <https://www.mdpi.com/1424-8220/25/3/849>`__: An interesting paper on use of acoustic modem in gliders.
 - `NatureLM Audio Demo <https://huggingface.co/spaces/MBZUAI/NatureLM-audio>`__: A demonstration of a large-scale audio model for detecting and classifying biological sounds.
 - `AISonobuoy hydrophone project <https://github.com/IQTLabs/AISonobuoy/tree/main/Hydrophone>`__: A low-cost DIY project aimed at near-real-time acoustic detection on low-power hardware.

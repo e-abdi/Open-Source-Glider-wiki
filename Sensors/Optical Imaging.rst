@@ -47,3 +47,9 @@ Now there is a commercial version of this camera and it's integration is availab
 
 
 .. image:: /images/shadowgraph.jpg
+
+
+PlanktoScope
+===================
+
+`PlanktoScope <https://github.com/fairscope/PlanktoScope>`_ is a modular, open-source hardware and software platform for quantitative imaging of plankton. It is built around a Raspberry Pi and standard imaging components, with a parts cost under $1,000, making it a very accessible low-cost DIY option for plankton analysis. While it is not a glider payload itself, it is a great tool for citizen scientists, classrooms, and resource-limited labs, and a useful reference for anyone thinking about open-source approaches to plankton imaging.

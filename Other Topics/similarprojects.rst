@@ -67,6 +67,24 @@ https://github.com/ZeinBarhoum/Underwater-Glider
 Another inactive bench-tested glider.
 
 
+Foxpoint
+-------------------
+
+https://www.foxpoint.se/
+
+An interesting open-source AUV project by three Swedish engineers based in Stockholm. Their vehicle, Ålen, combines accessible fabrication (3D printing) with ROS2 and cloud tooling. In 2025 it completed untethered open-water missions, including a full submerged circumnavigation of Rotholmen. Their focus on documentation and real-world testing makes them a great project to learn from.
+
+
+AUV designs shared on BlueRobotics Forum
+-----------------------------------------
+
+The BlueRobotics forum hosts a number of community AUV designs that are worth studying, especially for those building around off-the-shelf Blue Robotics components.
+
+`Modular Blue Robotics-based AUV <https://discuss.bluerobotics.com/t/modular-blue-robotics-based-auv/21251>`_ is a modular, air-transportable design (batteries under 100Wh, total weight under 30kg) built for survey missions. It uses interchangeable thruster, electronics, camera, and buoyancy modules, and the thread includes detailed cost breakdowns and design discussion.
+
+`6" diameter AUV hull for R&D <https://discuss.bluerobotics.com/t/6-diameter-auv-hull-for-r-d/5300>`_ is an open-source, hobbyist-oriented torpedo-shaped hull initiated by Kevin Klemens. It uses a wet-hull configuration with a 3D-printable fairing, thruster-based propulsion instead of control surfaces, and is designed for ArduSub compatibility. CAD files are shared via OnShape.
+
+
 RC Submarines
 -------------------
 
