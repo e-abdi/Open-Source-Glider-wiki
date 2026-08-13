@@ -1,8 +1,10 @@
 Data Management
 +++++++++++++++++++++
 
-Although there are many ongoing efforts to improve the standardization and interoperability of glider data, we are not there yet. Every glider, and every oceanographic instrument more broadly, tends to produce its own version of output data, with no shared standard for format, vocabulary, or metadata.
-The goal here is to follow the `FAIR principles <https://www.go-fair.org/fair-principles/>`_ together with the existing efforts and standards listed below to help develop an open data format and visualization tool with the community.
+Data management is perhaps one of the most overlooked aspects of open-source glider projects from an engineering perspective — but arguably the most important to get right. Without `FAIR data <https://www.go-fair.org/fair-principles/>`_ (Findable, Accessible, Interoperable, Reusable), nothing else matters: the hardware can work perfectly, the sensors can be well-calibrated, and the missions can be executed flawlessly, but if the data cannot be found, understood, or reused by others, the scientific value is severely limited.
+
+Although there are many ongoing efforts to improve the standardization and interoperability of glider data, we are not there yet — meaning data coming directly out of the instrument is not in the agreed standard format. Every glider, and every oceanographic instrument more broadly, tends to produce its own version of output data, so some post-processing is needed to convert it into a community-agreed format. That format is currently `OG1 <https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html>`_, and contributing towards it is what this project is aiming for.
+The goal here is to follow the FAIR principles together with the existing efforts and standards listed below to help improve the open data format and visualization tools together with the community.
 
 * `OceanGlider's glider tools list <https://github.com/OceanGlidersCommunity/glider-tools-list>`_
 * `OceanGliders OG Format <https://oceangliderscommunity.github.io/OG-format-user-manual/OG_Format.html>`_
