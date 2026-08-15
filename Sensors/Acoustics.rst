@@ -203,7 +203,7 @@ Acoustic modems and detection
 - `BlueBuzz <https://par.nsf.gov/servlets/purl/10465854>`__: A paper describing an open-source, reconfigurable acoustic modem developed at Georgia Tech.
 - `ahoi acoustic modem (TUHH) <https://www.tuhh.de/acps/research/acoustic-modem>`__: An open-source (BSD), low-cost, low-power acoustic modem developed at Hamburg University of Technology, with hardware, firmware, and Python tools all publicly available. Compact, rangeable, and suitable as a research platform.
 - `Acoustic modem in gliders paper <https://www.mdpi.com/1424-8220/25/3/849>`__: An interesting paper on use of acoustic modem in gliders.
-- `NatureLM Audio Demo <https://huggingface.co/spaces/MBZUAI/NatureLM-audio>`__: A demonstration of a large-scale audio model for detecting and classifying biological sounds.
+- `NatureLM Audio Demo <https://earthspecies.github.io/naturelm-audio-demo/>`__: A demonstration of a large-scale audio model for detecting and classifying biological sounds.
 - `AISonobuoy hydrophone project <https://github.com/IQTLabs/AISonobuoy/tree/main/Hydrophone>`__: A low-cost DIY project aimed at near-real-time acoustic detection on low-power hardware.
 
 Software and reference tools
