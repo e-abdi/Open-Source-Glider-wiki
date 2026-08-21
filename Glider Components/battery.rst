@@ -3,8 +3,18 @@ Battery
 
 It's important to remember that one of the most important properties of gliders is their endurance.
 Therefore power output is not as important as energy density and safety.
-Also it usually is a nightmare to ship large lithium packs therefore a pack design that can be easily filled up with cells at the deployment country is highly desired.
 
+
+Certification and Shipping
+===========================
+
+Certifying a large battery pack (e.g. UN38.3) is hard and expensive. Certification bodies require several physical samples of the exact pack to be crushed, dropped, punctured, and otherwise destroyed during testing. For a large custom pack, building and sacrificing that many samples is a significant capital investment on its own, before any of the glider work even starts.
+
+A common way around this is to build the large pack out of smaller packs that are already certified. This is what Teledyne does with the Slocum's rechargeable packs, which are assembled from many smaller rechargeable packs, likely ones already certified and used in their other products. Reusing an existing certified sub-pack avoids re-running destructive certification on a new large-format design.
+
+Shipping is a related headache. Large lithium packs are regulated as hazardous goods, need to be packaged according to that regulation, and typically require the shipper to be Hazmat certified to pack and ship them. This makes it important to stay flexible: a pack design that can be shipped as separate, unregulated (or less regulated) cells and assembled at the deployment country is highly desirable, rather than shipping a single large certified pack internationally.
+
+The best approach we've come up with so far is a custom battery holder, where the user buys the standard cells locally and installs them into the holder themselves rather than receiving a pre-built pack. This sidesteps both the certification and shipping problems, but making such a holder mechanically and electrically reliable (good contacts, vibration/shock resistance) is the real engineering challenge.
 
 
 Lithium Primary

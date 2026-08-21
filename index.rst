@@ -77,6 +77,7 @@ However, this is no simple task. Oceans are extremely harsh environments. That i
    :hidden:
    :caption: Other Topics
 
+   Other Topics/deployment
    Other Topics/data
    Other Topics/community
    Other Topics/nav
