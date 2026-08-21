@@ -1,10 +1,10 @@
 Fluorescence
 ++++++++++++++++++
-The sensor shines a specific color of light (usually blue or ultraviolet) into the water. Certain substances in the water, like tiny plants (phytoplankton) or dissolved materials, absorb this light and then send back (emit) a different color of light. The sensor picks up this "glow" and measures how strong it is.
+The sensor shines a specific color of light (usually blue or ultraviolet) into the water. Certain substances in the water, like phytoplankton (microscopic algae) or dissolved materials, absorb this light and then send back (emit) a different color of light. The sensor picks up this "glow" and measures how strong it is.
 
 By measuring this glow, scientists can figure out things like:
 
-* How much chlorophyll (from tiny plants) is in the water.
+* How much chlorophyll (largely from phytoplankton) is in the water.
 * How much colored dissolved organic matter (CDOM) is present.
 * How much of certain dyes (like rhodamine or fluorescein) is in the water, often used in water flow studies.
 

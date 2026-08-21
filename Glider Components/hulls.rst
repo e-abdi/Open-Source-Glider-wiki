@@ -1,7 +1,7 @@
 Pressure Hull
 +++++++++++++++++
 
-The Seaglider pressure hull is made from several pieces of machined 6061 aluminium, whereas Slocum uses carbon-fiber hulls.
+The Seaglider pressure hull is made from several pieces of machined 6061 aluminium. Slocum's standard 200 m-rated hulls are also aluminium, while its deeper-rated (1000 m) variant uses carbon-fiber composite hulls.
 
 Carbon-fiber composites are generally not especially well known for their compressive strength. They perform best in tension, as in aircraft structures that are pressurized from the inside. Read `this paper <https://www.mdpi.com/2077-1312/10/10/1456>`_ for more information.
 

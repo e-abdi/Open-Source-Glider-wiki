@@ -7,12 +7,12 @@ There is no widely established standard for subsea connectors, but there are som
 External
 -------------------
 
-Probably the most well-known and widely used underwater connector are essentially wet-pluggable meaning they can be mated when submerged. This is because the seal here is silicone grease so you need to make sure you are using plenty of it when mating them.
+Probably the most well-known and widely used underwater connectors are SubConn, which are essentially wet-pluggable meaning they can be mated when submerged. This is because the seal here is silicone grease so you need to make sure you are using plenty of it when mating them.
 
 .. image:: /images/subbconn.jpg
     :width: 400
 
-Another popular type of connector popular on gliders is the impulse IE55 series. These are nice and low-profile but since they are dry-mate and the seal is essentially tow rubber pieces, if there is a small imperfection or handled wrongly in the field, they prone to leak. This has happened countless times and most teams are moving away from these for most applications.
+Another popular type of connector on gliders is the Impulse IE55 series. These are nice and low-profile but since they are dry-mate and the seal is essentially two rubber pieces, if there is a small imperfection or they are handled wrongly in the field, they are prone to leaking. This has happened countless times and most teams are moving away from these for most applications.
 
 
 .. image:: /images/IE55.png

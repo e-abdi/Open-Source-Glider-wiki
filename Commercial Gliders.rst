@@ -3,7 +3,7 @@ Commercial Gliders
 Slocum
 ===============
 Developed by Teledyne Webb, Slocum gliders have very professional-looking and robust hardware, especially in the latest G3 generation. Thanks to the number of units sold and their strong position in the U.S. market, the design has had time to mature. However, the software side is a mess, with issues sometimes appearing to be patched rather than solved at the root. They are excellent for shallow coastal operations, but rather inefficient for long-endurance open-ocean deployments. If you are operating in a coastal environment with strong currents, I would definitely recommend their shallow glider, especially with the optional thruster.
-Slocum is named after Joshua Slocum, the first person to sail single-handedly around the world. He averaged 1 knot, which is also roughly the maximum speed of these gliders.
+Slocum is named after Joshua Slocum, the first person to sail single-handedly around the world. His three-year circumnavigation, including all the time spent in port, worked out to a leisurely average pace, not too far off the cruising speed of these gliders.
 
 .. image:: /images/slocum.png
 
@@ -11,7 +11,7 @@ Their new glider is called Sentinel, and it is massive. It is no longer operable
 
 .. image:: /images/sentinel.png
 
-Seaexplorer
+SeaExplorer
 ===================
 This is a polished product with a sleek user interface. It was developed by Alseamar, a large French company in the subsea domain, many years after the original three gliders, so they had plenty of time to learn from earlier designs. They sell a substantial number of units, supported by a strong marketing strategy and decent customer service. However, so far I have not had the chance to work with these, so most of the information presented here is based on Seaglider and Slocum, which I have personally worked with.
 
@@ -38,7 +38,7 @@ They have recently released a new version of their glider called SGX, which offe
 
 Oceanscout
 ==============
-Nortek, a dominant player in the ADCP market, seems to have decided that it was time to start something entirely new: building gliders. So far, they appear to be focusing on basic physical oceanography and passive acoustics. It is a small-form-factor glider, so it is quite a bit cheaper and can be deployed by one person. It also seems to be extremely easy to use and pilot, although that may come at the cost of flexibility. They have an interesting design in which the glider flips 180 degrees and climbs upside down to invert the lift vector and maintain a constant glide angle.
+Developed by Hefring Engineering, in partnership with Nortek, the dominant player in the ADCP market. So far, they appear to be focusing on basic physical oceanography and passive acoustics. It is a small-form-factor glider, so it is quite a bit cheaper and can be deployed by one person. It also seems to be extremely easy to use and pilot, although that may come at the cost of flexibility. They have an interesting design in which the glider flips 180 degrees and climbs upside down to invert the lift vector and maintain a constant glide angle.
 
 .. image:: /images/oceanscout.jpeg
 

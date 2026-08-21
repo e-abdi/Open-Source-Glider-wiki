@@ -75,6 +75,13 @@ https://www.foxpoint.se/
 An interesting open-source AUV project by three Swedish engineers based in Stockholm. Their vehicle, Ålen, combines accessible fabrication (3D printing) with ROS2 and cloud tooling. In 2025 it completed untethered open-water missions, including a full submerged circumnavigation of Rotholmen. Their focus on documentation and real-world testing makes them a great project to learn from.
 
 
+OpenMantaClaus
+-------------------
+https://github.com/kushagra77/OpenMantaClaus
+
+A low-cost, 5-thruster AUV (rather than a glider) built by Kushagra Javeri as a solo entry for the SAUVC 2026 competition, where it placed second. It runs on a Raspberry Pi 4B paired with an ArduSub flight controller, using ROS 2, bearing-only EKF SLAM, and YOLO-based object detection for its autonomous mission pipeline. The repo includes full CAD models, a BOM (~$2,500 AUD), wiring schematics, and training datasets, making it a nice reference for an accessible, well-documented student-built AUV.
+
+
 AUV designs shared on BlueRobotics Forum
 -----------------------------------------
 

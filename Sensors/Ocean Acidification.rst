@@ -17,8 +17,8 @@ Why does this matter?
 In short, ocean acidification is a major threat both to ocean ecosystems and to the planet’s climate balance.
 
 
-The most promising sensor for CO2 and CH4 currently is the `4HJena HydroC <https://www.4h-jena.de/en/maritime-technologies/sensors/hydrocrco2/>`_.
-I've helped integrating this on a Seaglider and the results can be found in `this paper <https://os.copernicus.org/articles/20/1403/2024/>`_.
+The most promising sensor for CO2 and CH4 currently is the `-4H-JENA engineering HydroC <https://www.4h-jena.de/en/maritime-technologies/sensors/hydrocrco2/>`_.
+I've helped integrate this on a Seaglider and the results can be found in `this paper <https://os.copernicus.org/articles/20/1403/2024/>`_.
 
 
 .. image:: /images/CO2.png
@@ -27,10 +27,10 @@ I've helped integrating this on a Seaglider and the results can be found in `thi
 They have a new version of this sensor which measures both of these variables and uses a thruster instead of a pump!
 
 .. image:: /images/HydroC.jpg
-    :alt: 4H Jena HydroC sensor
+    :alt: -4H-JENA engineering HydroC sensor
     :width: 400
 
-SeaExplorers have the `Franatech Methane sensor <https://www.franatech.com/mets_methane_sensor.html>`_ and `ProOceanus CO2 <https://pro-oceanus.com/products/mini-series/mini-co2>`_ integrated but apart from some results on areas with high concentration of methane and CO2 such as above an `active underwater volcano <https://www.researchgate.net/publication/360839100_Real-Time_and_Continuous_Monitoring_of_Submarine_Volcanism_with_a_Seaexplorer_Glider_Perspective_for_Carbon_Storage_Monitoring>`_ and the `Nord Stream gas pipeline sabotage <https://en.wikipedia.org/wiki/Nord_Stream_pipelines_sabotage>`_ I have not seen any scientific results with these so I am a bit sceptical about the quality of these sensors.
+SeaExplorers have the `Franatech Methane sensor <https://www.franatech.com/mets_methane_sensor.html>`_ and `ProOceanus CO2 <https://pro-oceanus.com/products/mini-series/mini-co2>`_ integrated, but apart from some results in areas with high concentrations of methane and CO2, such as above an `active underwater volcano <https://www.researchgate.net/publication/360839100_Real-Time_and_Continuous_Monitoring_of_Submarine_Volcanism_with_a_Seaexplorer_Glider_Perspective_for_Carbon_Storage_Monitoring>`_ and the `Nord Stream gas pipeline sabotage <https://en.wikipedia.org/wiki/Nord_Stream_pipelines_sabotage>`_, I have not seen any scientific results with these, so I am a bit sceptical about the quality of these sensors.
 
 .. image:: /images/Franatech.jpg
     :alt: Franatech methane sensor
