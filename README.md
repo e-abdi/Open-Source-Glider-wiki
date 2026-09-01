@@ -12,9 +12,9 @@ The goal is to make it possible to explore and study the ocean down to around 20
 
 This repository is the project hub:
 
-- GitHub hosts the files and development history.
-- Read the Docs hosts the background knowledge and wiki-style documentation.
-- Hackaday tracks the build process and project log.
+- [GitHub](https://github.com/e-abdi?tab=repositories) hosts the files and development history.
+- [Read the Docs](https://open-source-glider.rtfd.io) hosts the background knowledge and wiki-style documentation.
+- [Hackaday](https://hackaday.io/project/196850-open-source-glider) tracks the build process and project log.
 
 If you have suggestions or want to contribute, feel free to get in touch at ehs.abdi@gmail.com.
 
