@@ -3,7 +3,8 @@
 [![Read the Docs (Wiki)](https://img.shields.io/badge/Read%20the%20Docs-Wiki-2A5CAA?style=for-the-badge)](https://open-source-glider.rtfd.io)
 [![Hackaday Build Log](https://img.shields.io/badge/Hackaday-Build%20Log-1A1A1A?style=for-the-badge&logo=hackaday&logoColor=50FF77)](https://hackaday.io/project/196850-open-source-glider)
 
-![Open-Source Glider](images/tuba.png)
+<img src="images/tuba.png" alt="Open-Source Glider" width="360">
+
 
 An open-source effort to create a practical underwater glider blueprint for students, hobbyists, and citizen scientists.
 
