@@ -3,6 +3,8 @@
 [![Read the Docs (Wiki)](https://img.shields.io/badge/Read%20the%20Docs-Wiki-2A5CAA?style=for-the-badge)](https://open-source-glider.rtfd.io)
 [![Hackaday Build Log](https://img.shields.io/badge/Hackaday-Build%20Log-1A1A1A?style=for-the-badge&logo=hackaday&logoColor=50FF77)](https://hackaday.io/project/196850-open-source-glider)
 
+![Open-Source Glider](images/tuba.png)
+
 An open-source effort to create a practical underwater glider blueprint for students, hobbyists, and citizen scientists.
 
 The goal is to make it possible to explore and study the ocean down to around 200 m, and eventually 1000 m, autonomously for weeks or even months without relying on an expensive commercial glider.
