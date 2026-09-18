@@ -20,7 +20,7 @@ They have both a very good mechanical integration and full software integration 
 Slocum
 ------------
 This physical integration was carried out by LOV/Hydroptic and the integration kit is commercially available from Hydroptic. The kit essentially allows the users to install and remove the UVP6 with minimal ballasting.
-The software integration and flight tests were carried out under the `Bioglider <https://bioglider.eu/>`_ project. The software integration uses the Slocum Back Seat Driver and `Smart Cable <https://github.com/e-abdi/Smart-Cable>`_ as an interface. Therefore it requires a G3 Slocum with BSD and some wiring of a board inside your glider.
+The software integration and flight tests were carried out under the `Bioglider <https://bioglider.eu/>`_ project. The software integration uses the Slocum Back Seat Driver and `this board <https://github.com/e-abdi/SMaRT>`_ as an interface. Therefore it requires a G3 Slocum with BSD and some wiring of a board inside your glider.
 It is however possible to skip the full software integration and just supply power the UVP6 and have it record autonomously without any real-time data and no profile change according to depth.
 For G2, there seems to be a new firmware release that includes BSD but users will need to contact Teledyne to see if you are eligible for getting that firmware!
 
@@ -29,7 +29,7 @@ For G2, there seems to be a new firmware release that includes BSD but users wil
 Seaglider
 ---------------
 This integration was carried out from scratch under the Bioglider project. After a few iterations of mechanical integrations, the last deployment in June 2024 resulted in a good Seaglider flight. This integration requires the user to modify their glider front fairing. This includes a few simple cuts of the fiberglass nose and replacing it with a plastic part which also acts as a bracket for the UVP6. 
-The software integration uses the Seaglider LogDev interface together with the `Smart Cable <https://github.com/e-abdi/Smart-Cable>`_ to achieve a full integration with real-time data capability, however the data upload on EcoPART has not yet been tested. The mechanical integration can be found `here. <https://github.com/e-abdi/UVP6-Seaglider>`_.
+The software integration uses the Seaglider LogDev interface together with the `this board <https://github.com/e-abdi/SMaRT>`_ to achieve a full integration with real-time data capability, however the data upload on EcoPART has not yet been tested. The mechanical integration can be found `here. <https://github.com/e-abdi/UVP6-Seaglider>`_.
 
 .. image:: /images/uvpseag.jpg
 
