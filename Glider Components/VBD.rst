@@ -24,7 +24,7 @@ Bladder Design
 -------------------
 At the surface, a normally closed solenoid valve is opened and oil is drawn into the pressure hull. This reduces the displaced volume and makes the glider denser than the surrounding water, so it dives. When the glider reaches the desired depth, it pumps oil back out into the external bladder. That increases the displaced volume again and causes the glider to climb through the water column.
 
-The main issue with this approach is finding a reliable pump. One option worth testing is `this small hydraulic pump <https://huinaconstructiontoys.com/products/8mpa-mini-hydraulic-pump-high-pressure-for-kabolite-336-966-huina-1580-ec160e-rc-excavator-bulldozer-upgrade-parts?pr_prod_strat=use_description%E2%89%BArec_id%3D4eb47c173%E2%89%BArec_pid%3D7790484259035%E2%89%BAref_pid%3D7790484291803%E2%89%BAseq%3Duniform>`_. For the bladder itself, an accumulator bladder could be used just as in commercial gliders.
+The main difficulty of this approach is finding a reliable but affordable pump as this would be the most critical component. We can start by testing `small hydraulic pumps like this <https://huinaconstructiontoys.com/products/8mpa-mini-hydraulic-pump-high-pressure-for-kabolite-336-966-huina-1580-ec160e-rc-excavator-bulldozer-upgrade-parts?pr_prod_strat=use_description%E2%89%BArec_id%3D4eb47c173%E2%89%BArec_pid%3D7790484259035%E2%89%BAref_pid%3D7790484291803%E2%89%BAseq%3Duniform>`_. For the bladder itself, an accumulator bladder could be used just as in commercial gliders.
 
 .. image:: /images/BladderDesign.png
 

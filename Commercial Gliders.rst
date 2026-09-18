@@ -2,7 +2,7 @@ Commercial Gliders
 +++++++++++++++++++++++++
 Slocum
 ===============
-Developed by Teledyne Webb, Slocum gliders have very professional-looking and robust hardware, especially in the latest G3 generation. Thanks to the number of units sold and their strong position in the U.S. market, the design has had time to mature. However, the software side is a mess, with issues sometimes appearing to be patched rather than solved at the root. They are excellent for shallow coastal operations, but rather inefficient for long-endurance open-ocean deployments. If you are operating in a coastal environment with strong currents, I would definitely recommend their shallow glider, especially with the optional thruster.
+Developed by Teledyne Webb, Slocum gliders have very professional-looking and robust hardware, especially in the latest G3 generation. Thanks to the number of units sold and their strong position in the U.S. market, the design has had time to mature. However, the software side is a mess, with issues sometimes appearing to be patched rather than solved at the root. They are excellent for shallow coastal operations, but less efficient (at least compared to Seagliders) for long-endurance open-ocean deployments. If you are operating in a coastal environment with strong currents, I would definitely recommend their shallow glider, especially with the optional thruster.
 Slocum is named after Joshua Slocum, the first person to sail single-handedly around the world. His three-year circumnavigation, including all the time spent in port, worked out to a leisurely average pace, not too far off the cruising speed of these gliders.
 
 .. image:: /images/slocum.png
