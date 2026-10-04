@@ -32,6 +32,13 @@ https://discuss.bluerobotics.com/t/im-working-on-a-simple-mini-auv-glider-aimed-
 A project started by Brad Smith, a Canadian engineer whom I have been in touch with and hope to contribute to more effectively in the future.
 
 
+UVic Environmental Engineering Club Glider
+-------------------------------------------
+https://onlineacademiccommunity.uvic.ca/uveec/projects/
+
+A student team at the University of Victoria (UVEEC) has been developing a shallow-water underwater glider since 2023. Their V0 design uses a water tank and pump for buoyancy control, wings for forward glide, motors for pitch and roll control, long-range communication, and a CTD sensor for oceanographic profiling. They are aiming for a deployment in Saanich Inlet in 2027, with a V1 planned for greater depth and a modular sensor package. It is not clear whether the design is open, but being nearby on the BC coast, they would be a natural team to connect with.
+
+
 Seaflight
 -------------------
 http://seaflightglider.com/
@@ -99,3 +106,12 @@ https://www.rc-submarine.com/
 
 There is a rich community working on RC submarines from which we can learn quite a lot.
     
+
+
+SV Seeker
+-------------------
+https://svseeker.com/
+
+Not a glider, or even an underwater vehicle, but one of the best examples of what a community can build in the open. Doug Jackson started building a 74-foot steel sailboat by hand in his yard in Tulsa, Oklahoma, a place about as far from the ocean as you can get, and documented the entire build on YouTube. Over the years, the channel grew into hundreds of videos and a large following, and many people went from watching to showing up in person to help, with volunteers living and working on site. The viewers also helped fund the project, which is why it became known as "the boat the internet built." After about a decade of work, Seeker left the yard in 2021, made its way down the river to the Gulf of Mexico, and is now sailing in the Caribbean, with the goal of carrying students, researchers, and scientists to explore the oceans.
+
+There is a lot we can learn from them: building in public, sharing the failures along with the wins, and letting people join and own a piece of the project is exactly the kind of community we hope to grow around Tuba.
