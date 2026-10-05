@@ -2,6 +2,7 @@ Similar Projects
 ++++++++++++++++++++++++++
 
 Here are some of the similar projects I found. We can try to join forces or simply learn from them.
+Not all of them are strictly open-source glider projects, but they still belong here if they are low-cost, community-driven, upcycled, or otherwise useful points of reference that we can learn from.
 
 OSUG
 -------------------
@@ -10,19 +11,21 @@ https://hackaday.io/project/20458-osug-open-source-underwater-glider
 This was the original inspiration for the current effort. Alex Williams did a great job with it and managed to win the Hackaday Prize in 2017 with it. But then he got recruited by a company in California, and this project was largely left abandoned. I have, however, found a few people trying to build and improve it, such as `this one <https://hackaday.io/project/186931-open-source-shallow-water-glider>`_.
 
 
-Echo Sounder Buoys: Upcycling Playbook
-----------------------------------------
-https://hackaday.io/project/190485-echo-sounder-buoys-upcycling-playbook
-
-A great open-source project where they explore repurposing discarded fish aggregation device (FAD) echo sounder buoys into low-cost, open-source ocean monitoring platforms. These buoys, originally used in commercial fishing, are converted into systems such as hydrophones, cameras, and water quality sensors, leveraging their existing power, communication, and rugged marine design.
-
 
 SeaGlide
 --------------
 https://robonation.app.box.com/s/uwsu84umz7y9aizxbycp2hfsumx9z1y8
 
 This is the best project I’ve found so far in terms of detail and documentation. The only issue is that it’s just a toy built specifically for kids who want to fly it in a pool or a pond. The goal is to achieve this level of documentation and detail, but to create a scientific tool capable of withstanding the oceans.
- 
+
+
+UVic Environmental Engineering Club Glider
+-------------------------------------------
+https://onlineacademiccommunity.uvic.ca/uveec/projects/
+
+A student team at the University of Victoria (UVEEC) has been developing a shallow-water underwater glider since 2023. They are aiming for a deployment in Saanich Inlet in 2027, with a V1 planned for greater depth and a modular sensor package. It is not clear whether the design is open, but I have already connected with some of the team members and exchanged some ideas.
+
+
 SURF Robotics glider
 ---------------------
 
@@ -31,12 +34,6 @@ https://discuss.bluerobotics.com/t/im-working-on-a-simple-mini-auv-glider-aimed-
 
 A project started by Brad Smith, a Canadian engineer whom I have been in touch with and hope to contribute to more effectively in the future.
 
-
-UVic Environmental Engineering Club Glider
--------------------------------------------
-https://onlineacademiccommunity.uvic.ca/uveec/projects/
-
-A student team at the University of Victoria (UVEEC) has been developing a shallow-water underwater glider since 2023. Their V0 design uses a water tank and pump for buoyancy control, wings for forward glide, motors for pitch and roll control, long-range communication, and a CTD sensor for oceanographic profiling. They are aiming for a deployment in Saanich Inlet in 2027, with a V1 planned for greater depth and a modular sensor package. It is not clear whether the design is open, but being nearby on the BC coast, they would be a natural team to connect with.
 
 
 Seaflight
@@ -74,6 +71,8 @@ https://github.com/ZeinBarhoum/Underwater-Glider
 Another inactive bench-tested glider.
 
 
+
+
 Foxpoint
 -------------------
 
@@ -97,6 +96,14 @@ The BlueRobotics forum hosts a number of community AUV designs that are worth st
 `Modular Blue Robotics-based AUV <https://discuss.bluerobotics.com/t/modular-blue-robotics-based-auv/21251>`_ is a modular, air-transportable design (batteries under 100Wh, total weight under 30kg) built for survey missions. It uses interchangeable thruster, electronics, camera, and buoyancy modules, and the thread includes detailed cost breakdowns and design discussion.
 
 `6" diameter AUV hull for R&D <https://discuss.bluerobotics.com/t/6-diameter-auv-hull-for-r-d/5300>`_ is an open-source, hobbyist-oriented torpedo-shaped hull initiated by Kevin Klemens. It uses a wet-hull configuration with a 3D-printable fairing, thruster-based propulsion instead of control surfaces, and is designed for ArduSub compatibility. CAD files are shared via OnShape.
+
+
+Echo Sounder Buoys: Upcycling Playbook
+----------------------------------------
+https://hackaday.io/project/190485-echo-sounder-buoys-upcycling-playbook
+
+A great open-source project where they explore repurposing discarded fish aggregation device (FAD) echo sounder buoys into low-cost, open-source ocean monitoring platforms. These buoys, originally used in commercial fishing, are converted into systems such as hydrophones, cameras, and water quality sensors, leveraging their existing power, communication, and rugged marine design.
+
 
 
 RC Submarines
